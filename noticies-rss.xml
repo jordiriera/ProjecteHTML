@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+    <channel>
+        <title><![CDATA[FayerWayer]]></title>
+        <description><![CDATA[FayerWayer - Dosis diarias de tecnología en español ™]]></description>
+        <link>https://www.fayerwayer.com/</link>
+        <image>
+            <link>http://www.fayerwayer.com</link>
+            <url>http://static.betazeta.com/www.fayerwayer.com/up/2014/06/logo_fayerwayer.png</url>
+            <title>FayerWayer - Tecnologia en Español</title>
+        </image>
+        <generator>Node.js juan-rss</generator>
+        <lastBuildDate>Mon, 22 May 2017 09:55:28 GMT</lastBuildDate>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/fayerwayer" />
+        <feedburner:info uri="fayerwayer" />
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+        <thespringbox:skin xmlns:thespringbox="http://www.thespringbox.com/dtds/thespringbox-1.0.dtd">http://feeds.feedburner.com/fayerwayer?format=skin</thespringbox:skin>
+        <creativeCommons:license>http://creativecommons.org/licenses/by-nc-nd/2.0/</creativeCommons:license>
+        <feedburner:feedFlare href="https://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/fayerwayer" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.plusmo.com/add?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://plusmo.com/res/graphics/fbplusmo.gif">Subscribe with Plusmo</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://mix.excite.eu/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://image.excite.co.uk/mix/addtomix.gif">Subscribe with Excite MIX</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.webwag.com/wwgthis.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://www.webwag.com/images/wwgthis.gif">Subscribe with Webwag</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.wikio.com/subscribe?url=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://www.wikio.com/shared/img/add2wikio.gif">Subscribe with Wikio</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2Ffayerwayer" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare>
+        <item>
+            <title><![CDATA[Telcel lanzará red 5G en México hasta el 2020]]></title>
+            <description><![CDATA[Telcel, la operadora más grande del país se tomará su tiempo para lanzar su red 5G.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/j12qPFeRIug/telcel-lanzara-red-5g-en-mexico-hasta-el-2020</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/telcel-lanzara-red-5g-en-mexico-hasta-el-2020</guid>
+            <dc:creator><![CDATA[York Perry]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 19:05:46 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/mexico-5g-w-960x623-660x350.jpg" alt="" class="single"></p><p>En México el Instituto Federal de Telecomunicaciones (IFT) ha comenzado ya con <a href="https://www.wayerless.com/2016/12/ift-mexico-despeja-banda-de-600-mhz-para-preparar-red-5g/">los preparativos</a> necesario para iniciar las licitaciones pertinentes, con miras al lanzamiento de los servicios de red 5G en México, sin embargo, parece que faltan bastantes años para ver esto en acción dentro del país.</p>
+<p>La gente América Móvil ha realizado <a href="http://www.cronica.com.mx/notas/2017/1024307.html">una conferencia de prensa</a> para comunicar sus proyectos a corto y largo plazo con Telcel, la operadora móvil más importante de México, revelando que este 2017 iniciarán el despliegue de su red 4.5G, pero no será sino hasta el 2020 que den el salto a 5G.</p>
+<p>Carlos Slim, presidente del Consejo de Administración, y virtual dueño de América Móvil señaló que hasta la fecha su compañía se ha invertido alrededor de USD $52 mil millones sólo en México, para impulsar la instalación de redes 2G, 3G y 4G.</p>
+<p>El objetivo, ahora, con las redes 4.5G y 5G es el de instalar una red que haga posible el funcionamiento óptimo de dispositivos inteligentes móviles diseñados para el Internet de las Cosas (IoT).</p>
+<p>Daniel Hajj, Director General de América Móvil, <a href="http://www.jornada.unam.mx/2017/05/19/economia/027n2eco">compartió</a> que la red 4.5G de Telcel iniciaría operaciones a finales de este mismo año 2017, con una expansión gradual y progresiva en su cobertura.</p>
+<p>Por desgracia habrá que esperar algunos años más para usar la red 5G en el país.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=j12qPFeRIug:QTSRq_jkUos:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=j12qPFeRIug:QTSRq_jkUos:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=j12qPFeRIug:QTSRq_jkUos:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=j12qPFeRIug:QTSRq_jkUos:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=j12qPFeRIug:QTSRq_jkUos:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/j12qPFeRIug" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/mexico-5g-w-960x623.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/mexico-5g-w-960x623.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/telcel-lanzara-red-5g-en-mexico-hasta-el-2020</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Universidad de California crea robot inspirado en una tortuga]]></title>
+            <description><![CDATA[El robot de la universidad de San Diego de desplaza  sobre piedras y arena como si nada.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/3wKddFwfZpE/universidad-de-california-crea-robot-inspirado-en-una-tortuga</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/universidad-de-california-crea-robot-inspirado-en-una-tortuga</guid>
+            <dc:creator><![CDATA[York Perry]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 17:20:20 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/robot-tortuga-UCSD-660x350.jpg" alt="" class="single"></p><p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/hNYt5JUfrDw?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=hNYt5JUfrDw">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p>Cada vez que un ingeniero intenta construir un robot basándose en formas vivas que existen en el mundo real el resultado termina siendo<a href="https://www.fayerwayer.com/2017/05/nuevo-robot-bipedo-logra-una-mayor-estabilidad-pero-sigue-dando-miedo/"> tan efectivo como perturbador</a>. Pero, de entre todos los animales del planeta tal vez el menos pensado como base para armar un autómata sería una tortuga.</p>
+<p>Aún así, un grupo de investigadores de la <a href="http://jacobsschool.ucsd.edu/news/news_releases/release.sfe?id=2211">Universidad de California en San Diego (UCSD) </a>decidieron construir un robot inspirados en es te amigo con caparazón, que si bien puede ser un poco para desplazarse, resulta ser muy eficiente para andar por caminos irregulares o complicados, como sitios arenosos o llenos de piedras.</p>
+<p>Michael Tolley, ingeniero en jefe de la UCSD, y uno de los encargados de este proyecto revela para <a href="https://www.digitaltrends.com/cool-tech/soft-robot-3dprinted-pebbles-sand/">Digital Trends</a> los secretos esenciales de su creación:</p>
+<p><div  id="attachment_765014" align="aligncenter" width="1280" class="no-follow"><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/robot-tortuga-UCSD.jpg"><img src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/robot-tortuga-UCSD.jpg" alt="(C) UCSD" width="1280" height="720" class="size-full wp-image-765014" /></a> (C) UCSD</div></p>
+<blockquote><p>Nuestro robot basa su funcionamiento en el uso de sistemas de aire comprimido, lo que le permite realizar movimientos complejos sin un requerir un elaborado esquema de control. </p>
+<p>Para armar nuestro diseño utilizamos una impresora 3D multi-material, que nos permitió fabricar formas geométricas complejas hechas a base de combinaciones de materiales blandos y rígidos.</p></blockquote>
+<p>El robot de la UCSD se habría inspirado también en otras formas de vida marina, como los pulpos, que son capaces de comprimir y amoldar su cuerpo para desplazarse por lugares y cavidades comúnmente inaccesibles para sus dimensiones.</p>
+<p>La impresión 3D basada en multi-materiales blandos y rígidos es lo que ha hecho posible demostrar que es posible utilizar este mismo principio para robots.</p>
+<p>Aunque su diseño no sea muy atractivo, ni amigable, el robot de la UCSD representa un modesto avance en este terreno.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=3wKddFwfZpE:HgYJNV2QCf8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=3wKddFwfZpE:HgYJNV2QCf8:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=3wKddFwfZpE:HgYJNV2QCf8:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=3wKddFwfZpE:HgYJNV2QCf8:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=3wKddFwfZpE:HgYJNV2QCf8:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/3wKddFwfZpE" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/robot-tortuga-UCSD.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/robot-tortuga-UCSD.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/universidad-de-california-crea-robot-inspirado-en-una-tortuga</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Windows 10 S podrá actualizarse gratis a Windows 10 Pro]]></title>
+            <description><![CDATA[Microsoft permitirá que usuarios de tecnologías de asistencia actualicen gratis.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/ei-hwABzpK0/windows-10-s-podra-actualizarse-gratis-a-windows-10-pro</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/windows-10-s-podra-actualizarse-gratis-a-windows-10-pro</guid>
+            <dc:creator><![CDATA[Christian de la Cruz]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 17:12:39 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2015/09/Windows-10-Inicio-de-Sesión-660x350.jpg" alt="" class="single"></p><p>El gigante de Redmond sigue de buenas, pues aunque Windows 10 dejó de ser una actualización gratuita para usuarios de Windows 7 y 8.1, quienes son usuarios de las tecnologías de asistencia pueden <a href="https://www.fayerwayer.com/2017/02/windows-10-sigue-siendo-gratuito-con-el-truco-de-tecnologias-de-asistencia/">actualizar su sistema operativo completamente gratis</a>.</p>
+<p>Según dio a conocer Microsoft en su <a href="https://blogs.msdn.microsoft.com/accessibility/2017/05/18/windows-accessibility-what-to-expect-later-this-year/" target="_blank">blog de accesibilidad</a>, algo similar aplicará para usuarios de Windows 10 S y de las tecnologías de asistencia, ya que podrán actualizar gratis a Windows 10 Pro.</p>
+<p>Mientras que <a href="http://fayerwayer.com/tag/windows-10-s">Windows 10 S </a>sólo permite la descarga y ejecución de juegos y aplicaciones que se encuentren en la Tienda Windows, Windows 10 Pro no tiene esta restricción. Si no existiera esta oferta, el usuario tendría que pagar USD$49 para actualizar.</p>
+<p>La actualización gratuita estará disponible hasta que <a href="http://fayerwayer.com/tag/microsoft">Microsoft</a> mejore la tecnología de asistencia de Windows 10 S y lleve más aplicaciones de tecnologías de asistencia a la Tienda Windows.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=ei-hwABzpK0:StBQIinng1A:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=ei-hwABzpK0:StBQIinng1A:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=ei-hwABzpK0:StBQIinng1A:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=ei-hwABzpK0:StBQIinng1A:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=ei-hwABzpK0:StBQIinng1A:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/ei-hwABzpK0" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2015/09/Windows-10-Inicio-de-Sesi%C3%B3n.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2015/09/Windows-10-Inicio-de-Sesi%C3%B3n.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/windows-10-s-podra-actualizarse-gratis-a-windows-10-pro</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Uber Freight es un Uber de camiones]]></title>
+            <description><![CDATA[Uber Freight quiere demostrar que el modelo de Uber tiene varias aplicaciones.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/N_L6WW4K4HQ/uber-ahora-conecta-camiones-con-carga-lanzando-uber-freight</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/uber-ahora-conecta-camiones-con-carga-lanzando-uber-freight</guid>
+            <dc:creator><![CDATA[York Perry]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 16:49:59 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/meme-homero-conductor-uber-660x350.jpg" alt="" class="single"></p><p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/ORfz2UunRs4?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=ORfz2UunRs4">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p>¿Nunca les ha sucedido que necesitan <a href="https://www.fayerwayer.com/2010/10/skylifter-un-globo-para-llevar-carga-pesada/">trasladar una carga de gran peso</a> de un punto a otro del país y no encuentran cómo hacerlo? Personalmente nunca me ha pasado, pero es bueno saber que ahora existe la opción de Uber Freight para conseguir un conductor especializado en este tipo de labores.</p>
+<p>Así como su nombre lo insinúa,<a href="https://medium.com/official-uber-freight-blog/uber-freight-leveling-the-playing-field-for-americas-truck-drivers-73530215a1f1"> Uber Freight</a> no es otra cosa más que el mismo servicio de Uber que todos conocemos y amamos, pero ahora enfocado a las necesidades del transporte de carga, haciendo más ágil todo el proceso.</p>
+<p>El usuario con alguna necesidad de traslado de algún cargamento sólo necesitaría ingresar a la aplicación para ver los conductores disponibles en la zona, ingresar la dirección de destino, conocer el precio del traslado y aceptarlo.</p>
+<p>Tal como puede observarse en <a href="https://www.youtube.com/watch?v=ORfz2UunRs4">el video introductorio,</a> en esta primera fase, Uber Freight se encuentra más enfocado a atraer conductores que deseen unirse a esta plataforma, donde la tarifa sería variable de acuerdo a las cualidades del peso y dimensiones del cargamento, así como la distancia.</p>
+<p>Uno de los puntos más atractivos de Uber Freight, para los conductores, es que la compañía les pagaría por retrasos en los servicios que involucren alguna demora de tiempo y alteración de su agenda, a la vez que los pagos serán más inmediatos que la dinámica tradicional.</p>
+<p>Será cuestión de tiempo para ver su aceptación.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=N_L6WW4K4HQ:7FCx-TrLTH4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=N_L6WW4K4HQ:7FCx-TrLTH4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=N_L6WW4K4HQ:7FCx-TrLTH4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=N_L6WW4K4HQ:7FCx-TrLTH4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=N_L6WW4K4HQ:7FCx-TrLTH4:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/N_L6WW4K4HQ" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/meme-homero-conductor-uber.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/meme-homero-conductor-uber.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/uber-ahora-conecta-camiones-con-carga-lanzando-uber-freight</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Windows 10 tendrá un nuevo Centro de Control]]></title>
+            <description><![CDATA[Los interruptores del Centro de Acciones tendrán su propio apartado.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/23un3EYOAww/windows-10-tendra-un-nuevo-centro-de-control</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/windows-10-tendra-un-nuevo-centro-de-control</guid>
+            <dc:creator><![CDATA[Christian de la Cruz]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 16:31:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2016/04/Windows-10-Menu-inicio-Portada-660x350.jpg" alt="" class="single"></p><p>Tras dar a conocer que la siguiente actualización de características para Windows 10 es la <a href="https://www.fayerwayer.com/2017/05/windows-10-fall-creators-update-la-siguiente-gran-actualizacion-de-caracteristicas/">Fall Creators Update</a>, Microsoft está lanzando compilaciones a través de Windows Insider que revelan poco a poco las novedades que conoceremos oficialmente en la segunda mitad del año.</p>
+<p>La compilación más reciente de <a href="http://fayerwayer.com/tag/windows-10">Windows 10</a>, 16199, liberada para usuarios Fast Ring de Windows Insider, ha revelado varias características, entre ellas un nuevo apartado para los interruptores que encontramos en el Centro de Acciones.</p>
+<p>Microsoft publicó en el blog oficial de Windows las novedades de dicha compilación, incluida una captura de lo que sería una característica no revelada por la compañía. <a href="http://www.windowscentral.com/microsoft-accidently-teases-new-control-center-feature-works-windows-10" target="_blank">Windows Central </a>resguardó la imagen, que posteriormente fue eliminada, y decidió investigar al respecto.</p>
+<p><div  id="attachment_765005" align="aligncenter" width="660" class="no-follow"><img class="size-large wp-image-765005" alt="(c) Windows Central" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/controlcenter_rs3-660x595.jpg" width="660" height="443" /> (c) Windows Central</div></p>
+<p>Sus fuentes aseguran que lo que vemos es un Centro de Control, accesible mediante un icono de engranaje en la bandeja de notificaciones. Allí encontraremos los interruptores del<a href="http://fayerwayer.com/tag/centro-de-acciones"> Centro de Acciones</a>, así como un nuevo y necesario control deslizante para el brillo.</p>
+<p>Con este nuevo Centro de Control, el Centro de Acciones pasará a ser sólo de notificaciones. Y como es de esperar, el usuario podrá elegir los interruptores que aparecerán en el Centro de Control, además de poderlos reorganizar a su conveniencia.</p>
+<p>Es muy probable que veamos esta nueva característica con <a href="http://fayerwayer.com/tag/windows-10-fall-creators-update">Windows 10 Fall Creators Update</a>, dado que se está probando internamente y faltan meses para su lanzamiento oficial.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=23un3EYOAww:aaLIcYXwlIc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=23un3EYOAww:aaLIcYXwlIc:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=23un3EYOAww:aaLIcYXwlIc:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=23un3EYOAww:aaLIcYXwlIc:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=23un3EYOAww:aaLIcYXwlIc:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/23un3EYOAww" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2016/04/Windows-10-Menu-inicio-Portada.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2016/04/Windows-10-Menu-inicio-Portada.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/windows-10-tendra-un-nuevo-centro-de-control</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Llegan los mensajes en video y más novedades a Telegram]]></title>
+            <description><![CDATA[La mejor aplicación recibe su mejor actualización. ]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/O4ihdDCz43A/llegan-los-mensajes-en-video-y-mas-novedades-a-telegram</link>
+            <guid isPermaLink="false">https://www.wayerless.com/2017/05/llegan-los-mensajes-en-video-y-mas-novedades-a-telegram</guid>
+            <dc:creator><![CDATA[Martín "Tincho" Calderón]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 16:22:01 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.wayerless.com/up/2017/05/telegram-4-660x350.png" alt="" class="single"></p><p>La mejor aplicación de mensajería móvil del universo mundial y nuestro Dios salvador, Telegram, se actualiza a su esperada versión 4.0.</p>
+<p>¿Cuáles son las novedades? La más llamativa son los video mensajes: pequeñas cápsulas redondas para comunicarse no solo con audio, también con imagen.</p>
+<p>¿Cómo lo logro? Lo primero, actualiza la aplicación. Después aprieta solo una vez y corto el botón del micrófono, ahora tienes la opción de mandar pequeños videos. Magia, hijo.</p>
+<p><img class="aligncenter size-large wp-image-472108" alt="video mensajes telegram" src="//static.betazeta.com/www.wayerless.com/up/2017/05/video-mensajes-660x595.png" width="660" height="393" /></p>
+<p>Otra de las novedades es el pago a través de bots. donde los comercios pueden incorporar botones de pago en sus mensajes. Dicho sea de paso, todos tus datos bancarios están protegidos por verificación de dos pasos.</p>
+<p><img class="aligncenter size-large wp-image-472109" alt="telegram 4 shopbot" src="//static.betazeta.com/www.wayerless.com/up/2017/05/telegram-4-shopbot-660x595.png" width="660" height="387" /></p>
+<p>La novedad ya la puedes probar en la aplicación en el bot <strong>@ShopBot</strong>, para que le vayas agarrando confianza. Para más novedades y detalle, el <a href="https://telegram.org/blog/payments" target="_blank">blog oficial</a> de la aplicación da información sobre las plataformas en las que está montado.</p>
+<p>¡Viva Telegram!</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=O4ihdDCz43A:OhT1cIr02qk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=O4ihdDCz43A:OhT1cIr02qk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=O4ihdDCz43A:OhT1cIr02qk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=O4ihdDCz43A:OhT1cIr02qk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=O4ihdDCz43A:OhT1cIr02qk:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/O4ihdDCz43A" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.wayerless.com/up/2017/05/telegram-4.png</thumbnail>
+            <media:content url="https://static.betazeta.com/www.wayerless.com/up/2017/05/telegram-4.png" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.wayerless.com/2017/05/llegan-los-mensajes-en-video-y-mas-novedades-a-telegram</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Suecia cierra el caso contra Julian Assange]]></title>
+            <description><![CDATA[La acusación por violación que lo tuvo refugiado por años en Londres ya no corre más.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/JYpqWKq3wwg/suecia-cierra-el-caso-contra-julian-assange</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/suecia-cierra-el-caso-contra-julian-assange</guid>
+            <dc:creator><![CDATA[Raúl Estrada]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 16:13:29 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2015/02/julian-assange-660x350.jpg" alt="" class="single"></p><p>Después de cinco años refugiado en la embajada de Ecuador en Londres, Julian Assange puede cantar victoria: Suecia desestimó <a href="https://www.fayerwayer.com/2010/11/la-fiscalia-sueca-dicta-orden-de-busca-y-captura-contra-julian-assange/">los cargos de violación por los que se le buscaba</a> y por lo tanto, la investigación ya no sigue más.</p>
+<p>En declaraciones a los medios desde uno de los balcones de la embajada, Assange respiró aliviado por lo que significa una gran victoria en su caso, pero también indicó que fueron demasiados años encerrado a causa de la investigación "mientras mis hijos crecían y mi nombre era ensuciado. No olvidaré ni perdonaré".</p>
+<blockquote class="twitter-tweet" data-lang="es">
+<p dir="ltr" lang="en">Detained for 7 years without charge by while my children grew up and my name was slandered. I do not forgive or forget.</p>
+<p>— Julian Assange (@JulianAssange) <a href="https://twitter.com/JulianAssange/status/865553683387367425">19 de mayo de 2017</a></p></blockquote>
+<p>&nbsp;</p>
+<p>¿Significa esto que Assange ahora puede salir de la embajada después de tanto tiempo? No necesariamente y de hecho, el mismo Assange no hizo declaración alguna al respecto en su discurso frente a los medios. Además, en Estados Unidos también querrían tenerlo en sus manos y dados los acuerdos de extradición entre ese país e Inglaterra, no parece muy seguro que Julian Assange salga caminando por la calle como si nada.</p>
+<p>Más allá de que Suecia haya cerrado la investigación, es muy seguro que esto no vaya a terminar aquí y quedan todavía varias páginas por escribirse. Mal que mal, en Estados Unidos siguen <em>preocupados</em> por las filtraciones de Wikileaks, que según el mismo Assange, "no van a parar".</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=JYpqWKq3wwg:FRKUutip0pM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=JYpqWKq3wwg:FRKUutip0pM:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=JYpqWKq3wwg:FRKUutip0pM:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=JYpqWKq3wwg:FRKUutip0pM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=JYpqWKq3wwg:FRKUutip0pM:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/JYpqWKq3wwg" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2015/02/julian-assange.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2015/02/julian-assange.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/suecia-cierra-el-caso-contra-julian-assange</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Razer y Bungie se asocian para lanzar periféricos de Destiny 2]]></title>
+            <description><![CDATA[Se viene un mouse, un teclado y más con los diseños de la secuela.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/HDYBn1DMc60/razer-y-bungie-se-asocian-para-lanzar-perifericos-de-destiny-2</link>
+            <guid isPermaLink="false">https://www.niubie.com/2017/05/razer-y-bungie-se-asocian-para-lanzar-perifericos-de-destiny-2</guid>
+            <dc:creator><![CDATA[Lady Karina]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 15:36:30 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.niubie.com/up/2017/05/destiny-2-201733019571_1-660x350.jpg" alt="" class="single"></p><p>Razer se ha asociado con Bungie para lanzar una línea de periféricos de <a href="http://www.niubie.com/tag/destiny-2/">Destiny 2</a>. De acuerdo a un comunicado, están trabajando en una "suite" de productos para el juego.</p>
+<p><a href="//static.betazeta.com/www.niubie.com/up/2017/05/3235053-destiny.jpg"><img class="alignnone size-medium wp-image-619636" alt="3235053-destiny" src="//static.betazeta.com/www.niubie.com/up/2017/05/3235053-destiny-624x0.jpg" width="601" height="315" /></a></p>
+<p>Estos son "el mouse más preciso jamás creado" llamado Razer DeathAdder Elite, el teclado Razer Ornata Chroma, el headset Razer ManO'War Tournament Edition y el mouse pad Razer Goliathus Speed.</p>
+<p>"El equipo ha traído buenas ideas para unir el arte y los diseños de Destiny con el hardware de alto rendimiento de Razer, para entregarle a los jugadores nuevas maneras de personalizar su experiencia con Destiny 2", dijo Jim McQuillian, el jefe de marketing en Bungie.</p>
+<p>Los periféricos de Destiny 2 se pondrán a la venta el mismo día en que se estrena el juego: el 8 de septiembre.</p>
+<p><strong><span style="font-size: small;">No olviden seguirnos y comentar en <a href="http://www.facebook.com/niubie">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=HDYBn1DMc60:isLk9sS1QVA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=HDYBn1DMc60:isLk9sS1QVA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=HDYBn1DMc60:isLk9sS1QVA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=HDYBn1DMc60:isLk9sS1QVA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=HDYBn1DMc60:isLk9sS1QVA:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/HDYBn1DMc60" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.niubie.com/up/2017/05/destiny-2-201733019571_1.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.niubie.com/up/2017/05/destiny-2-201733019571_1.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.niubie.com/2017/05/razer-y-bungie-se-asocian-para-lanzar-perifericos-de-destiny-2</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[El próximo Apple Watch medirá tu glucosa]]></title>
+            <description><![CDATA[Han visto a Tim Cook usando el aparato. ]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/B7_CS8VQnwE/el-proximo-apple-watch-medira-tu-glucosa</link>
+            <guid isPermaLink="false">https://www.wayerless.com/2017/05/el-proximo-apple-watch-medira-tu-glucosa</guid>
+            <dc:creator><![CDATA[Martín "Tincho" Calderón]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 14:42:40 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.wayerless.com/up/2015/09/Joven-asegura-que-Apple-Watch-le-salvó-la-vida-y-Tim-Cook-le-regala-un-iPhone-nuevo1-660x350.jpg" alt="" class="single"></p><p>El CEO de Apple ha sido visto por las oficinas de Cupertino usando un dispositivo para medir la glucosa en la sangre ¿La sorpresa? Es un Apple Watch.</p>
+<p>De acuerdo a reportes de la <a href="http://www.cnbc.com/2017/05/18/apple-ceo-tim-cook-test-drove-glucose-monitor.html?__source=twitter" target="_blank">CNBC</a> es el mismísimo "Tío Tim" les contó que lleva semanas usando un aparato de medición continua de glucosa para medir el impacto de sus comidas en el día a día.</p>
+<p>El gran desafío parte por el hecho de que para llevar a cabo esto, los aparatos actuales deben perforar la piel, por lo que el desafío para Apple es mayúsculo.</p>
+<p>"Es mentalmente angustiante para la gente con diabetes tener que andar midiéndose constantemente el nivel de azucar en la sangre", dice Cook, y es por eso que dice estar profundamente orgulloso de la contribución que puede hacer Apple en este aspecto.</p>
+<p>Sobre lo que no se tiene claridad aún es si el mismo Apple Watch está midiendo constantemente (y cómo) o si es una correa especial para este fin.</p>
+<p>Quizás tengamos novedades sobre esto en la conferencia de desarrolladores WWDC que se llevará a cabo a principios de junio y donde nosotros estaremos presentes llevándoles todas las novedades de la empresa de la manzanita mordida.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=B7_CS8VQnwE:Jc4fKJzrfC4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=B7_CS8VQnwE:Jc4fKJzrfC4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=B7_CS8VQnwE:Jc4fKJzrfC4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=B7_CS8VQnwE:Jc4fKJzrfC4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=B7_CS8VQnwE:Jc4fKJzrfC4:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/B7_CS8VQnwE" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.wayerless.com/up/2015/09/Joven-asegura-que-Apple-Watch-le-salv%C3%B3-la-vida-y-Tim-Cook-le-regala-un-iPhone-nuevo1.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.wayerless.com/up/2015/09/Joven-asegura-que-Apple-Watch-le-salv%C3%B3-la-vida-y-Tim-Cook-le-regala-un-iPhone-nuevo1.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.wayerless.com/2017/05/el-proximo-apple-watch-medira-tu-glucosa</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Esta Inteligencia Artificial se está enseñando a sí misma a conducir en GTA V]]></title>
+            <description><![CDATA[¿Aprendizaje de máquinas dijo alguien?]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/aF1c43Hz6CE/esta-inteligencia-artificial-se-esta-ensenando-a-si-misma-a-conducir-en-gta-v</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/esta-inteligencia-artificial-se-esta-ensenando-a-si-misma-a-conducir-en-gta-v</guid>
+            <dc:creator><![CDATA[Raúl Estrada]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 14:38:19 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/GTA-IA-660x350.jpg" alt="" class="single"></p><p>¿Hasta dónde puede llegar el aprendizaje de máquinas y la inteligencia artificial? <a href="https://www.fayerwayer.com/2017/05/la-inteligencia-artificial-segun-google-io2017/">Google ha estado estos últimos días hablando de eso</a> y para ejemplificarlo de manera más lúdica, llega Charles: una <a href="https://es.wikipedia.org/wiki/Redes_neuronales_convolucionales">red neuronal convolucional</a> que se está enseñando a sí misma a conducir en Grand Theft Auto V.</p>
+<p>Las RNC se basan en el análisis de imágenes, por lo que lo que está haciendo Charles es <a href="https://imgur.com/a/WNMjk">analizar las imágenes y los pixeles</a> que van apareciendo en el juego. Según su creador Harrison "sentdex" Kingsley, la IA actualmente "aprende viendo lo que se muestra en cada frame del juego y toma sus decisiones basándose solo en los pixeles que ve". Por ende, lo que vemos nosotros en el <a href="https://www.twitch.tv/sentdex">stream de Twitch</a> es exactamente lo mismo que ve la inteligencia artificial.</p>
+<p><iframe src="https://player.twitch.tv/?channel=sentdex" height="378" width="620" allowfullscreen="true" frameborder="0" scrolling="no"></iframe><a style="padding: 2px 0px 4px; display: block; width: 345px; font-weight: normal; font-size: 10px; text-decoration: underline;" href="https://www.twitch.tv/sentdex?tt_medium=live_embed&amp;tt_content=text_link">Ver vídeo en directo de sentdex en www.twitch.tv</a></p>
+<p>Por ahora, Charles no tiene memoria por lo tanto no puede recordar lo que pasó apenas un segundo antes y todas sus decisiones sobre la dirección que debe tomar para seguir en el camino se realizan al instante. Sin embargo, en el futuro la idea es que se le implemente memoria a corto plazo, lo cual mejoraría su forma de conducir.</p>
+<p>Charles fue desarrollada en Python y se trata de un proyecto <em>open source</em> cuya documentación está <a href="https://pythonprogramming.net/game-frames-open-cv-python-plays-gta-v/">al alcance de todos los interesados</a>. Por otra parte, esto comprueba que <a href="http://www.niubie.com/tag/grand-theft-auto-v/">Grand Theft Auto V</a> es uno de los juegos <a href="https://www.niubie.com/2017/05/alguien-recreo-terminator-2-en-gta-v/">más grandes que jamás se hayan hecho</a> y también comprueba que no solo los humanos tienen problemas para no hacer desorden automovilístico dentro de Los Santos.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=aF1c43Hz6CE:EIyr_3IW8lI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=aF1c43Hz6CE:EIyr_3IW8lI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=aF1c43Hz6CE:EIyr_3IW8lI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=aF1c43Hz6CE:EIyr_3IW8lI:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=aF1c43Hz6CE:EIyr_3IW8lI:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/aF1c43Hz6CE" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/GTA-IA.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/GTA-IA.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/esta-inteligencia-artificial-se-esta-ensenando-a-si-misma-a-conducir-en-gta-v</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[La Inteligencia Artificial según Google #IO2017]]></title>
+            <description><![CDATA[El aprendizaje de máquinas ha sido uno de los ejes centrales de la versión 2017 de Google I/O, incluyendo esta metodología de trabajo en casi todos sus productos y servicios.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/TPm7USibHN4/la-inteligencia-artificial-segun-google-io2017</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/la-inteligencia-artificial-segun-google-io2017</guid>
+            <dc:creator><![CDATA[Manuel Silva]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 11:45:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/google_ai_duet_screenshot_2_2017.0.png-660x350.jpeg" alt="" class="single"></p><p>Google está experimentando en distintas áreas con la inteligencia artificial, pero más precisamente con el aprendizaje de máquinas (o machine learning), desarrollando una buena cantidad de iniciativas en todas sus plataformas. Google I/O de este año ha girado en torno a este ámbito en buena parte de sus charlas, mesas de discusión y ponencias de ejecutivos, lo cual se debe a que, básicamente, el futuro ya está acá.</p>
+<p>Uno de los puntos que Sundar Pichai destacó en la <em>keynote</em> principal de esta conferencia es que la compañía se encuentra desarrollando un sistema de redes neuronales que diseña otras redes neuronales por sí misma. Para llegar a esto, se necesitó de un entrenamiento bastante extenso que sólo podría compararse con el proceso de aprendizaje humano -por mucho que cueste creerlo-, vale decir, ensayo y error a través de estímulos visuales, entre varias otras maneras de generar conocimiento.</p>
+<p>Lo anterior se llevó a cabo en la plataforma de creación de <em>deep learning,</em> TensorFlow, uno de los productos estrella de Google para aquellos que trabajan en el campo de la inteligencia artificial, el que, por lo demás, <a href="https://github.com/tensorflow" target="_blank">es de código abierto</a>.</p>
+<p>Otro de los proyectos de la empresa es Magenta, una iniciativa que busca generar utilidades prácticas para la IA de manera didáctica. Anteriormente hemos ejemplificado todo esto por medio de notas sobre instancias que forman parte de esto, como <a href="https://www.fayerwayer.com/2017/02/google-creo-una-inteligencia-artificial-capaz-de-tocar-piano/">DuetIA</a>, un programa que nos permite tocar una pieza en piano complementada de una melodía generada por computadora.</p>
+<p>Por estos días, Douglas Eck, encargado del Project Magenta, se encuentra anunciando <a href="https://magenta.tensorflow.org/nsynth" target="_blank">NSynth</a>, una idea que busca generar melodías por medio de redes neuronales que reproducen sonidos al nivel de pequeñas muestras de audio. La idea principal es que el mundo musical comience a aceptar a la tecnología como parte de su proceso creativo, lo que, lejos de crear bandas compuestas netamente por robots, complementarían de mejor manera la creatividad humana.</p>
+<p>Según Eck, estas son sólo un par de muestras de lo que Google está haciendo en el campo de la inteligencia artificial y el aprendizaje de máquinas, no obstante aún hay mucho que explorar por parte de la industria y del sector educativo global -una alianza que es tremendamente necesaria para seguir avanzando en esta área, según indica el científico-, ya que las capacidades que hoy tienen las computadoras versus lo que se espera obtener (un desempeño similar al de los humanos), aún está lejos de suceder.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=TPm7USibHN4:FRNgpUv1BHA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=TPm7USibHN4:FRNgpUv1BHA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=TPm7USibHN4:FRNgpUv1BHA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=TPm7USibHN4:FRNgpUv1BHA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=TPm7USibHN4:FRNgpUv1BHA:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/TPm7USibHN4" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/google_ai_duet_screenshot_2_2017.0.png.jpeg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/google_ai_duet_screenshot_2_2017.0.png.jpeg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/la-inteligencia-artificial-segun-google-io2017</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[¿De qué se trata lo nuevo de Google Photos? #IO2017]]></title>
+            <description><![CDATA[La compañía está ofreciendo desde un respaldo total de nuestras fotografías, hasta copias impresas de las mismas.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/5nMjz04eopE/de-que-se-trata-lo-nuevo-de-google-photos-io2017</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/de-que-se-trata-lo-nuevo-de-google-photos-io2017</guid>
+            <dc:creator><![CDATA[Manuel Silva]]></dc:creator>
+            <pubDate>Fri, 19 May 2017 10:00:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/How-to-Backup-iPhone-Photos-to-Google-Photos-660x350.jpg" alt="" class="single"></p><p>Uno de los anuncios más importantes de Google I/O fueron los nuevos servicios que ofrecerá Google Photos dentro de los próximos días, y es que la compañía nos está ofreciendo una serie de utilidades bastante interesantes para aquellos que guardan grandes cantidades de imágenes en formato digital.</p>
+<p>Es conocido por todos que la inteligencia artificial y el aprendizaje de máquinas son los ejes centrales de la versión de este año de la conferencia, elementos que fueron integrados a buena parte de los productos que forman parte de la firma. Photos, por supuesto, no fue la excepción, comenzando a funcionar en Suggested Libraries y Shared Libraries (bibliotecas sugeridas y compartidas; son dos cosas distintas).</p>
+<p><div  id="attachment_764986" align="alignnone" width="660" class="no-follow"><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/Google-Photos-Google-IO-810x298_c.png"><img class="size-large wp-image-764986" alt="Foto: XDA Developers" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/Google-Photos-Google-IO-810x298_c-660x595.png" width="660" height="242" /></a> Foto: XDA Developers</div></p>
+<h2>Suggested Libraries</h2>
+<p>El funcionamiento principal de esta función es compartir las fotografías que tengamos de otras personas en nuestros teléfonos, por medio de un algoritmo de reconocimiento facial con la gente que forma parte de nuestra agenda de contactos. Todo esto se realizará por medio de notificaciones, las cuales nos recordarán que tenemos imágenes de otras personas, preguntándonos si queremos o no compartirlas con ellas por medio de Shared Libraries, o cualquier otro medio.</p>
+<h2>Shared Libraries</h2>
+<p>Las bibliotecas compartidas nos permiten enviar y recibir fotos <strong>-y videos-</strong> con distintas personas, idealmente aquellas con la que tengamos una mayor cantidad de interacciones en nuestro equipo (quienes tienden también a ser nuestros seres queridos). También podremos compartir determinadas capturas con ellos bajo una modalidad de peer-to-peer, no obstante aún no podremos realizar esto con grupos de personas, por lo menos en primera instancia.</p>
+<p>En la presentación de ayer, se hizo un especial énfasis en que la característica está pensada para no perdernos ningún momento importante incluso cuando estemos lejos. En el caso de que tengamos hijos y nuestra pareja nos quiera enviar fotografías de ellos, lo puede hacer por medio de una carpeta compartida en donde veremos su contenido cada vez que ejecutemos la aplicación. Esto quiere decir que cada vez que abramos el programa, posiblemente veamos nuevos archivos que nos hayan sido enviados mientras estábamos fuera de él.</p>
+<p><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/Google-IO-2017-anil-sabharwal-google-photos-photo-books-1280x720.jpg"><img class="alignnone size-large wp-image-764987" alt="Google-IO-2017-anil-sabharwal-google-photos-photo-books-1280x720" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/Google-IO-2017-anil-sabharwal-google-photos-photo-books-1280x720-660x595.jpg" width="660" height="371" /></a></p>
+<h2>Photobooks</h2>
+<p>Una de las principales novedades que nos ofrece Google por estos días es la posibilidad de imprimir nuestras fotografías en formato físico. Esto se realizará en álbumes de tapa dura o blanda realizados con papel reciclado para minimizar el impacto ambiental, los cuales tienen costos distintos dependiendo de la cantidad de páginas que tengan. Estas, cabe destacar, van entre 20 -como mínimo- y un tope de 100.</p>
+<p>Lamentablemente, esta utilidad está disponible sólo para los Estados Unidos, no obstante desde Google indican que están haciendo todo lo posible para llevar la función a otros lugares del mundo, especialmente de Latinoamérica.</p>
+<p><div  id="attachment_764988" align="alignnone" width="660" class="no-follow"><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/blog_post_-_photo_books_io_R7WV1VP.width-980.png"><img class="size-large wp-image-764988" alt="blog_post_-_photo_books_io_R7WV1VP.width-980" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/blog_post_-_photo_books_io_R7WV1VP.width-980-660x595.png" width="660" height="365" /></a> Foto: XDA Developers</div></p>
+<p>La principal pregunta que surgió ayer en la presentación de este servicio fue qué pasaba con la privacidad al estar todo automatizado, no obstante la empresa ha destacado insistentemente que <strong>todos los movimientos que se realicen en este software pasarán siempre por las manos del usuario</strong>, teniendo él que autorizar o denegar los permisos que requiere la app. Por supuesto, nuestro consejo amigable es a revisar cuidadosamente todo lo que nos pida Google Photos para no cometer errores en el futuro.</p>
+<p>Por otro lado, el punto negro de esta nueva prestación es que no existe un chequeo de copyright para las imágenes que se contengan en la aplicación, ya que Google confiará en que las personas utilizarán de buena manera este producto sin cometer actos ilegales, ni enviando a imprimir imágenes protegidas por derechos de autor. Asimismo, quienes realicen la impresión no podrán acceder a todos nuestros archivos, sino que sólo a aquellos que hayamos escogido para pasar a formato físico.</p>
+<p>Es importante destacar que la privacidad de nuestro contenido está asegurado, siempre y cuando nosotros escojamos las opciones correctas para no compartir cosas que no queramos compartir.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=5nMjz04eopE:l2pb3MPB-MA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=5nMjz04eopE:l2pb3MPB-MA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=5nMjz04eopE:l2pb3MPB-MA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=5nMjz04eopE:l2pb3MPB-MA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=5nMjz04eopE:l2pb3MPB-MA:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/5nMjz04eopE" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/How-to-Backup-iPhone-Photos-to-Google-Photos.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/How-to-Backup-iPhone-Photos-to-Google-Photos.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/de-que-se-trata-lo-nuevo-de-google-photos-io2017</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Este es el primer tráiler de Young Sheldon, el spinoff de The Big Bang Theory]]></title>
+            <description><![CDATA[La serie mostrará a Sheldon Cooper con unos tiernos 9 años.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/Fer3pCm88tk/este-es-el-primer-trailer-de-young-sheldon-el-spinoff-de-the-big-bang-theory</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/este-es-el-primer-trailer-de-young-sheldon-el-spinoff-de-the-big-bang-theory</guid>
+            <dc:creator><![CDATA[Lady Karina]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 21:01:23 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/sheldon-660x350.jpg" alt="" class="single"></p><p>CBS ha revelado el primer vistazo a Young Sheldon, el spinoff de The Big Bang Theory en donde veremos a Sheldon Cooper en sus primeras andanzas.</p>
+<p>La nueva serie estará protagonizada por un joven Sheldon, a la tierna edad de 9 años. Aquí la historia transcurre en 1989, mostrando su faceta por el colegio y cómo es la vida de un genio dentro de una familia religiosa que viene de Texas.</p>
+<p>De esta forma, dejamos atrás por un momento a Jim Parsons para para dar paso a Iain Armitage (de Big Little Lies) quien interpreta al pequeño Sheldon en esta precuela. Por otro lado, Zoe Perry (de Grey's Anatomy) tomará el rol de la mamá de Sheldon.</p>
+<p>Si bien en Young Sheldon no aparecerá Jim Parsons, sí estará presente con su voz, ya que será éste quien hará de narrador en la nueva comedia.</p>
+<p>Young Sheldon se estrenará el 2 de diciembre en Estados Unidos a través de CBS, aunque el 25 de septiembre lanzarán un adelanto.</p>
+<p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/SUfx6oDQt44?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=SUfx6oDQt44">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p><strong><span style="font-size: small">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=Fer3pCm88tk:2lHt1JAm80M:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=Fer3pCm88tk:2lHt1JAm80M:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=Fer3pCm88tk:2lHt1JAm80M:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=Fer3pCm88tk:2lHt1JAm80M:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=Fer3pCm88tk:2lHt1JAm80M:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/Fer3pCm88tk" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/sheldon.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/sheldon.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/este-es-el-primer-trailer-de-young-sheldon-el-spinoff-de-the-big-bang-theory</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Conoce la carcasa capaz de hacerte un café]]></title>
+            <description><![CDATA[Porque quién no quiere tener un potencial brebaje hirviendo en los pantalones. ]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/HVYt5Yz9zhs/conoce-la-carcasa-capaz-de-hacerte-un-cafe</link>
+            <guid isPermaLink="false">https://www.wayerless.com/2017/05/conoce-la-carcasa-capaz-de-hacerte-un-cafe</guid>
+            <dc:creator><![CDATA[Martín "Tincho" Calderón]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 19:32:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.wayerless.com/up/2017/05/mokase-660x350.png" alt="" class="single"></p><p>Cada cierto tiempo nos topamos con curiosidades en la web que la mayoría de las veces son demasiado buenos para ser verdad o son tan insólitos que deben ser una broma. Mokase no es ninguna de las anteriores.</p>
+<p>Esta funda para tu teléfono cuenta con un avanzado mecanismo que te permite hacerte una pequeña taza de café en cualquier lugar. No, no te vamos a juzgar.</p>
+<p>Partió en Kickstarter pero actualmente su modelo está principalmente en su<a href="https://www.mokase.it/en/" target="_blank"> web oficial</a>, donde por 50 euros puedes pedir la tuya y recibirla desde el primero de septiembre. Ojo, no hay que pagar precio completo aún, solo EUR  €24.95, la mitad.</p>
+<p>Está disponible en blanco y negro para los siguientes equipos:</p>
+<ul>
+<li>iPhone 6</li>
+<li>iPhone 6s</li>
+<li>iPhone 7</li>
+<li>iPhone 7 Plus</li>
+<li>Samsung Galaxy S6</li>
+<li>Samsung Galaxy S6 Edge</li>
+<li>Samsung Galaxy S6 Edge Plus</li>
+<li>Samsung Galaxy S7</li>
+<li>Samsung Galaxy S7 Edge</li>
+<li>Samsung Galaxy S8 y S8+</li>
+<li>Huawei P9</li>
+<li>Huawei P9 Plus</li>
+<li>Huawei P10</li>
+<li>Huawei P10 Plus</li>
+<li>LG G5</li>
+</ul>
+<p>Recientemente también añadieron por petición popular el Huawei P8 lite, que al parecer en Italia, país natal de este emprendimiento, es un hit.</p>
+<p>La carcasa se recarga con <em>wafers, </em>el pack de 15 cuesta solo EUR €9 y entre más lleves más barato es.</p>
+<p>Es un invento sin dudas, curioso, pero que será un gran gadget de todo fanático del café y que no puede separarse de él por ningún segundo.</p>
+<p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/9NTMHuKzUJs?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=9NTMHuKzUJs">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=HVYt5Yz9zhs:l4jV2Ij4dZM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=HVYt5Yz9zhs:l4jV2Ij4dZM:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=HVYt5Yz9zhs:l4jV2Ij4dZM:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=HVYt5Yz9zhs:l4jV2Ij4dZM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=HVYt5Yz9zhs:l4jV2Ij4dZM:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/HVYt5Yz9zhs" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.wayerless.com/up/2017/05/mokase.png</thumbnail>
+            <media:content url="https://static.betazeta.com/www.wayerless.com/up/2017/05/mokase.png" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.wayerless.com/2017/05/conoce-la-carcasa-capaz-de-hacerte-un-cafe</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[HP Elite X3, un teléfono para ejecutivos [FW Labs]]]></title>
+            <description><![CDATA[Un teléfono que se puede usar como computador de escritorio, ¿cumple su objetivo?]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/SstzQpy6dS8/hp-elite-x3-un-telefono-para-ejecutivos-fw-labs</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/hp-elite-x3-un-telefono-para-ejecutivos-fw-labs</guid>
+            <dc:creator><![CDATA[Martín "Tincho" Calderón]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 19:21:01 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/HP-Elite-X3-portada-660x350.jpg" alt="" class="single"></p><p>El Elite X3 no es un celular cualquiera. Primero que todo es bastante raro ver un teléfono marca HP; segundo, que venga una caja gigante te hace pensar que este es un negocio serio, no una cosa cualquiera. Y además, corre con el casi extinto <a href="https://www.wayerless.com/tag/windows-10-mobile/">Windows 10 Mobile</a>.</p>
+<p>Hay que ser honestos: Windows 10 Mobile ya no despegó. Tratar de usarlo como si fuera tu equipo cualquiera con Android o un iPhone no es posible. La tienda de aplicaciones está evidentemente vacía y solo las aplicaciones más básicas están presentes. Peor aún, algunas están un poco abandonadas (como Spotify) y no funcionan de forma fluida.</p>
+<p><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_00_53_11.Imagen-fija014.png"><img class="alignnone size-full wp-image-764961" alt="HPELITE.00_00_53_11.Imagen fija014" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_00_53_11.Imagen-fija014.png" width="1920" height="1080" /></a></p>
+<p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/bzB7eTKYGFk?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=bzB7eTKYGFk">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p><strong>Especificaciones HP Elite X3</strong></p>
+<ul>
+<li>Pantalla de 5.96 pulgadas a 2560p</li>
+<li>Procesador Qualcomm Snapdragon 820</li>
+<li>4 GB de RAM</li>
+<li>64 GB de almacenamiento ampliable vía microSD</li>
+<li>Windows 10 Mobile</li>
+<li>Cámara de 16 megapixeles</li>
+<li>Cámara frontal de 8 megapixeles</li>
+<li>Batería 4150mAh</li>
+<li>USB-C</li>
+<li>Resistencia al agua y al polvo IP67</li>
+</ul>
+<p>Se extrañan mucho en un equipo con Windows 10 algunas aplicaciones de Google como YouTube, para el cual se debe usar un reemplazo que no anda del todo bien y eso es triste, porque vaya que se aprovecharía con esta pantalla de 5.96 pulgadas que cumple de forma más que correcta. Dicho sea de paso, tener mayor variedad de juegos para aprovechar la experiencia multimedia con sus buenos parlantes Bang &amp; Olufsen frontales sería ideal.</p>
+<p><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_02_20_11.Imagen-fija008.png"><img class="alignnone size-full wp-image-764967" alt="HPELITE.00_02_20_11.Imagen fija008" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_02_20_11.Imagen-fija008.png" width="1920" height="1080" /></a></p>
+<p>Estoy seguro que con su procesador Snapdragon 820 muchas cosas andarían perfecto, pero en este caso la potencia y sus 4 GB de RAM se usan para otra cosa: conectar el teléfono a un <em>dock</em> y convertirlo en un computador de escritorio.</p>
+<p>Las aplicaciones de Microsoft, dígase la suite de Office, funciona muy bien y de seguro en su público objetivo, gente que está más pegada a sus tablas de Excel y presentaciones de PowerPoint, será un lujo esta experiencia. En lo que respecta a mí, no tengo nada que instalar. Su arquitectura ARM <a href="https://www.wayerless.com/2016/12/windows-10-no-correra-en-los-dispositivos-con-snapdragon-820/">no permite programas ejecutables tradicionales</a> y su rapidez no es como para tirar cohetes; olvídate de tener muchas pestañas abiertas. De todas formas para tareas más simples el equipo corre bastante bien.</p>
+<p>El dock tiene entrada ethernet, dos puertos USB y un puerto USB-C. En la caja se incluyen todos los accesorios necesarios para usar el teléfono en los diferentes formatos. Y también existe la opción de usar Continuum con un laptop “vacío”, por así decirlo, que al conectar el equipo te da la experiencia que antes describimos, pero más portátil.</p>
+<p>Su cámara de 16 megapixeles está por sobre la media pero para las especificaciones del teléfono uno esperaría que estuviera al menos a la altura de los teléfonos en su rango de precio.</p>
+<p><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_00_38_11.Imagen-fija015.png"><img class="alignnone size-full wp-image-764960" alt="HPELITE.00_00_38_11.Imagen fija015" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_00_38_11.Imagen-fija015.png" width="1920" height="1080" /></a></p>
+<p>El Elite X3 de HP es un buen equipo al fin y al cabo, sus especificaciones son de gama alta y el diseño al menos a mí me convence bastante. Pero lamentablemente es como un rehén de Windows Mobile y quizás este es el precio a pagar para tener la innovación de Continuum, que cuando fue presentado el año pasado estaba limitado a unos pocos teléfonos, pero actualmente el Galaxy S8 promete eso y usando Android.</p>
+<p>Una cosa es clara: si sigues siendo parte de la fiel fanaticada de Windows en móviles, este es el equipo que debes tener. Su calidad de construcción es estupenda y sus especificaciones son tope de línea. Eso sí, deberás desembolsar 749.990 pesos chilenos en los canales oficiales de HP (Precios en MXN y COP en pantalla), pero al menos viene con el <em>dock</em> y una buena cantidad de accesorios.</p>
+<p><a href="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_01_40_26.Imagen-fija011.png"><img class="alignnone size-full wp-image-764964" alt="HPELITE.00_01_40_26.Imagen fija011" src="//static.betazeta.com/www.fayerwayer.com/up/2017/05/HPELITE.00_01_40_26.Imagen-fija011.png" width="1920" height="1080" /></a></p>
+<p>De todas formas, y considerando su formato y sus especificaciones, vale hacerse la siguiente pregunta: ¿Va el Elite X3 a reemplazar a mi computador? La respuesta es: <em>nah</em>.</p>
+<p>¡Recuerden suscribirse a nuestro <a href="www.youtube.com/fayerwayer">canal de YouTube</a>!</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=SstzQpy6dS8:eQNxyc3OOck:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=SstzQpy6dS8:eQNxyc3OOck:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=SstzQpy6dS8:eQNxyc3OOck:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=SstzQpy6dS8:eQNxyc3OOck:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=SstzQpy6dS8:eQNxyc3OOck:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/SstzQpy6dS8" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/HP-Elite-X3-portada.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/HP-Elite-X3-portada.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/hp-elite-x3-un-telefono-para-ejecutivos-fw-labs</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[El primer avance de Star Trek: Discovery es impresionante]]></title>
+            <description><![CDATA[Star Trek: Discovery muestra por fin cómo luce, y es espectacular.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/YycDiIrNlcg/el-primer-avance-de-star-trek-discovery-es-impresionante</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/el-primer-avance-de-star-trek-discovery-es-impresionante</guid>
+            <dc:creator><![CDATA[York Perry]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 18:53:30 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/star-trek-discovery-660x350.jpg" alt="" class="single"></p><p>Desde hace bastantes meses surgió <a href="https://www.fayerwayer.com/2016/07/netflix-logra-los-derechos-exclusivos-para-la-nueva-serie-de-star-trek/">una gran expectativa</a> sobre el inminente estreno de Star Trek: Discovery, una producción montada por CBS y  Netflix, que había sido un misterio sobre su aspecto, hasta ahora.</p>
+<p>Ambas casas productoras se coordinaron para <a href="https://www.fayerwayer.com/2016/07/netflix-logra-los-derechos-exclusivos-para-la-nueva-serie-de-star-trek/">publicar</a> de manera simultánea el primer avance oficial de esta serie en donde observamos que, al menos en lo que respecta a valores de producción, estará a altura de las eras previas de esta franquicia:</p>
+<p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/XeB-_XjcTNs?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=XeB-_XjcTNs">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p>Star Trek: Discovery, contemplada originalmente para componer su primera temporada por 13 episodios, extenderá su duración hasta 15 capítulos. </p>
+<p>Si la serie está a la altura de lo observado en este avance, podemos tener la certeza de que será impresionante. </p>
+<p>Aunque la fecha exacta de estreno es todavía un misterio.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=YycDiIrNlcg:SOmzdjKtDqk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=YycDiIrNlcg:SOmzdjKtDqk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=YycDiIrNlcg:SOmzdjKtDqk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=YycDiIrNlcg:SOmzdjKtDqk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=YycDiIrNlcg:SOmzdjKtDqk:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/YycDiIrNlcg" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/star-trek-discovery.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/star-trek-discovery.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/el-primer-avance-de-star-trek-discovery-es-impresionante</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Trailer de Black Lightning, nueva serie de DC para The CW]]></title>
+            <description><![CDATA[Y que probablemente será parte del Arrowverso.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/oML-ILFd2QY/trailer-de-black-lightning-nueva-serie-de-dc-para-the-cw</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/trailer-de-black-lightning-nueva-serie-de-dc-para-the-cw</guid>
+            <dc:creator><![CDATA[Christian de la Cruz]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 18:32:59 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/Black-Lightning-Portada-660x350.jpg" alt="" class="single"></p><p>El universo de DC Comics que comenzó con Arrow en la cadena The CW dará pronto la bienvenida a la <a href="https://www.fayerwayer.com/2017/02/sinopsis-de-la-serie-black-lightning-para-the-cw-revelada/">nueva serie protagonizada por Black Lightning</a>, personaje creado en 1977 por el escritor Tony Isabella y el artista Trevor Von Eeden.</p>
+<p>Jefferson Pierce, quien fuera un vigilante en sus mejores años, decidió retirarse para estar con su familia. Cambió las peleas por el amor de sus hijas y una vida de tranquilidad, hasta que una pandilla se mete en su vida y la de sus hijas.</p>
+<p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/RZpJeuXo2CY?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=RZpJeuXo2CY">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p>El primer tráiler de <a href="http://fayerwayer.com/tag/black-lightning">Black Lightning</a> nos lleva a una nueva historia llena de acción, donde un hombre maduro vuelve a pelear, y esta vez para proteger a sus hijas, quienes eventualmente se convertirán en heroínas.</p>
+<p>La nueva serie que posiblemente será parte del Arrowverso se estrenará en la cadena <a href="http://fayerwayer.com/tag/the-cw">The CW</a> este año, protagonizada por Cress Williams, China Anne McClain, Nafessa Williams y Christine Adams.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=oML-ILFd2QY:3Jej42et8dA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=oML-ILFd2QY:3Jej42et8dA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=oML-ILFd2QY:3Jej42et8dA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=oML-ILFd2QY:3Jej42et8dA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=oML-ILFd2QY:3Jej42et8dA:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/oML-ILFd2QY" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/Black-Lightning-Portada.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/Black-Lightning-Portada.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/trailer-de-black-lightning-nueva-serie-de-dc-para-the-cw</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Axtel relata cómo combatió al Ramsonware WannaCry en México]]></title>
+            <description><![CDATA[La operadora Axtel fue señalada como una de las vulnerables a WannaCry.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/QtK6_QMH-Eg/axtel-relata-como-combatio-al-ramsonware-wannacry-en-mexico</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/axtel-relata-como-combatio-al-ramsonware-wannacry-en-mexico</guid>
+            <dc:creator><![CDATA[York Perry]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 17:55:46 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/axtel-660x350.jpg" alt="" class="single"></p><p>El ataque del Ramsonware WannaCry pasará a la historia como <a href="https://www.fayerwayer.com/2017/05/wannacry-afecto-a-200-000-computadores-en-150-paises/">uno de los más brutales jamás vistos</a>. Hubo más de 200 mil computadoras afectadas a lo largo de 150 países, un número enorme pero que pudo ser mayor.</p>
+<p>Ahora, una vez pasada la peor parte de la tormenta, llega el momento del recuento de acciones para evitar que el problema creciera aún más, y Axtel, la operadora triple play de México, señalada en su momento como <a href="http://eleconomista.com.mx/tecnociencia/2017/05/15/mexico-ya-mas-afectado-wannacry-america-latina">una de las más vulnerables</a> a esta infección masiva, ha salido a hablar sobre qué acciones realizó durante la crisis.</p>
+<p>En declaraciones publicadas por el diario <a href="http://eleconomista.com.mx/industrias/2017/05/16/asi-respondio-axtel-ciberataque-wannacry">El Economista</a>, portavoces no identificados de la compañía aseguraron que no hubo afectaciones serias consecuencia de WannaCry entre sus clientes corporativos, gracias a las medidas de reacción ejecutadas al momento de iniciada la pandemia:</p>
+<p>Emprendimos acciones de forma proactiva desde el 12 de mayo al medio día, cuando los CERTs Europeos activaron las alertas de seguridad. Activamos protocolos internos de Respuesta a Incidentes de Seguridad en los diversos frentes internos y de servicios que proveemos, en constante comunicación con nuestros clientes.</p>
+<p>Las acciones realizadas consistieron en bloqueos de red, en la aplicación de parches, bloqueos de extensiones maliciosas y una constante comunicación con los colaboradores para ser más cautos.</p>
+<p>El mismo diario se ha dado a la tarea de contactar a América Móvil y Telefónica, las otras compañías afectadas por WannaCry. Ambas afirman que al menos para el caso de México no presentaron un solo caso de infección y ataque.</p>
+<p>Mientras, Axtel, al ser abordados sobre si contaron con algún usuario afectado se limitó a responder que implementaron “las acciones preventivas oportunamente”.</p>
+<p>La cuestión aquí es que la Comisión Nacional de Seguridad (CNS) <a href="https://www.sdpnoticias.com/nacional/2017/05/15/se-registraron-4-casos-de-ataques-por-virus-wannacry-en-mexico-cns">ha confirmado</a> que en el país se presentaron cuatro casos de este RamsonWare. Pero ninguna compañía parece atribuirse su participación indirecta en ellos.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=QtK6_QMH-Eg:zlORRvDH4Uk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=QtK6_QMH-Eg:zlORRvDH4Uk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=QtK6_QMH-Eg:zlORRvDH4Uk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=QtK6_QMH-Eg:zlORRvDH4Uk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=QtK6_QMH-Eg:zlORRvDH4Uk:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/QtK6_QMH-Eg" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/axtel.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/axtel.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/axtel-relata-como-combatio-al-ramsonware-wannacry-en-mexico</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Google anuncia que el navegador Chrome se sube a la Realidad Virtual #IO2017]]></title>
+            <description><![CDATA[Las novedades para la realidad virtual y aumentada de Google son interesantes en muchos niveles.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/1dgzbDkj45A/google-anuncia-que-el-navegador-chrome-se-sube-a-la-realidad-virtual-io2017</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/google-anuncia-que-el-navegador-chrome-se-sube-a-la-realidad-virtual-io2017</guid>
+            <dc:creator><![CDATA[Manuel Silva]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 17:52:48 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/01/daydream-660x350.png" alt="" class="single"></p><p>Por algún motivo, Google dejó para el segundo día todas las novedades en el campo de la realidad virtual y aumentada en <a href="https://www.fayerwayer.com/tag/google-io-2017/">Google I/O 2017</a>, las cuales son bastante interesantes tanto para los desarrolladores de aplicaciones en esta área, como también para los humildes usuarios finales de las mismas.</p>
+<p>Si bien el foco de esta conferencia está puesto en aquellas personas que crean software, las utilidades que hoy comienzan a estar disponibles en este segmento tecnológico beneficiarán a una buena cantidad de personas en el futuro cercano, sin importar las distintas áreas en donde se desempeñen normalmente. Pero claro, mejor procedemos a contarles cuáles son las novedades más importantes.</p>
+<h2>Daydream 2.0 Euphrates</h2>
+<p><strong>Daydream 2.0 Euphrates</strong> es una nueva actualización en el software del dispositivo de realidad virtual de Google, el cual contendrá muchas novedades interesantes dentro de las próximas semanas. La conferencia partió contándonos que para finales de este año se espera que una buena cantidad de millones de teléfonos móviles sean compatibles con los lentes de la compañía, incluyendo en esta área al Samsung Galaxy S8 y el próximo teléfono de LG.</p>
+<p>Asimismo, la empresa anunció igualmente que el programa base de dicho aparato estará potenciado por Android O, con el fin de hacer compatibles ambas plataformas. Esto significa que <strong>podremos revisar las notificaciones de nuestro equipo, e incluso ir cambiando de aplicaciones sin la necesidad de sacarnos el Daydream de encima</strong>.</p>
+<p>Respecto a este punto, también existen grandes novedades que se suman a <a href="https://www.fayerwayer.com/2017/05/google-se-une-a-qualcomm-htc-y-lenovo-para-nuevo-visor-vr-inalambrico-io2017/">las anunciadas ayer</a>, ya que el nuevo aparato que no necesita cables ni teléfonos parece ser el nuevo punto de atención de los esfuerzos de la marca para desarrollar esta tecnología de ahora en adelante. Sí hay que hacer una salvedad, y es que en esta ocasión sólo se mencionaron las máquinas que están siendo desarrolladas por Qualcomm y HTC en conjunto con Google, dejando de lado a Lenovo por algún motivo que desconocemos hasta ahora.</p>
+<p>Finalmente, el anuncio más importante y aplaudido por la audiencia de desarrolladores es que <strong>Google Cast tendrá un soporte oficial en Daydream desde la implementación de Euphrates</strong>, por lo que las posibilidades para quienes utilizan este dispositivo se amplían enormemente.</p>
+<h2>YouTube VR</h2>
+<p>Otra actualización formará parte de YouTube VR, la app para Daydream de la plataforma de videos, ya que junto a lo anunciado ayer para su versión web, Super Chat, dicha extensión parece también estar presente en el modo de realidad virtual del programa.</p>
+<p>En la conferencia se anunció que <strong>podremos interactuar con nuestros amigos para comentar y ver lo que ellos estén viendo en sus respectivos aparatos</strong>, permitiéndonos de esta manera socializar con nuestros cercanos a distancia por medio de los lentes de Google.</p>
+<h2>Chrome en VR</h2>
+<p>Uno de los planes más ambiciosos de la compañía es instaurar el concepto de realidad virtual en la vida cotidiana de las personas, por lo que los esfuerzos para llevar a cabo esta misión son bastante grandes. Tanto así como para llevar <strong>el navegador completo de Google a esta plataforma</strong>, y con completo nos referimos a todas las utilidades que se nos puedan ocurrir, incluyendo nuestros marcadores, sesiones e historial.</p>
+<p>Todo esto estará disponible para los usuarios hacia finales de este año, según indicaron los ejecutivos de la empresa en la charla realizada a los desarrolladores en Google I/O.</p>
+<h2>Novedades para desarrolladores</h2>
+<p>Acá nos ponemos un poco más técnicos, ya que los creadores de contenidos para Daydream y Tango son quienes verán la mayor cantidad de beneficios con todo lo anterior.</p>
+<p>Primero es necesario destacar que todos los anuncios anteriores están centrados en Tango para Daydream, ya que es sabido por todos que los conceptos de AR y VR van muy de la mano por estos días. Mientras el primero hoy está siendo proyectado para el uso doméstico o incluso educativo, el segundo tiene su foco en el entretenimiento, tomando siempre las bases técnicas del primero.</p>
+<p>Dado esto, podemos contar entonces que Google se encuentra desarrollando una nueva tecnología llamada <strong>Seurat</strong>, la que tiene por misión llevar renders mucho más realistas a los programas que sean desarrollados para lograr experiencias más inmersivas para el usuario final.</p>
+<p><div class="video-container"><iframe type="text/html" width="425" height="344" src="//www.youtube.com/embed/_rAHM70jfzo?border=0&autoplay=0&loop=0&hd=0&rel=0&fs=1&showsearch=0&showinfo=0&html5=1" frameborder="0" allowfullscreen></iframe></div><small><a href="https://www.youtube.com/watch?v=_rAHM70jfzo">Ver en <strong>YouTube</strong></a></small><br/></p>
+<p>Por otra parte, también fue anunciada la utilidad <strong>Instant Preview</strong>, la cual elimina el tiempo de demostraciones entre lo que estas personas realizan en sus computadores y lo que se ve en el dispositivo de VR. Digamos, veremos todo en tiempo real en ambas pantallas, lo cual es muy cool.</p>
+<p>Google I/O continúa hoy con una serie de charlas técnicas para desarrolladores, quienes parecen estar quedando bastante contentos con todo lo anunciado hasta ahora.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=1dgzbDkj45A:La-t-6-e2ds:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=1dgzbDkj45A:La-t-6-e2ds:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=1dgzbDkj45A:La-t-6-e2ds:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=1dgzbDkj45A:La-t-6-e2ds:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=1dgzbDkj45A:La-t-6-e2ds:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/1dgzbDkj45A" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/01/daydream.png</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/01/daydream.png" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/google-anuncia-que-el-navegador-chrome-se-sube-a-la-realidad-virtual-io2017</feedburner:origLink>
+        </item>
+        <item>
+            <title><![CDATA[Científicos consiguen cultivar células madre de sangre]]></title>
+            <description><![CDATA[Dos investigaciones diferentes consiguen el mismo resultado.]]></description>
+            <link>http://feedproxy.google.com/~r/fayerwayer/~3/g3G_jIMU44U/cientificos-consiguen-cultivar-celulas-madre-de-sangre</link>
+            <guid isPermaLink="false">https://www.fayerwayer.com/2017/05/cientificos-consiguen-cultivar-celulas-madre-de-sangre</guid>
+            <dc:creator><![CDATA[Christian de la Cruz]]></dc:creator>
+            <pubDate>Thu, 18 May 2017 17:45:11 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/Sangre-Células-Portada-660x350.jpg" alt="" class="single"></p><p>El intento de cultivo de células madre de sangre, producidas durante el desarrollo del embrión, data del año 1998, y es hasta hoy que científicos de Estados Unidos consiguieron cultivar estás células en ratones mediante diferentes métodos.</p>
+<p>Se trata de dos investigaciones diferentes publicadas en la revista Nature, una de ellas liderada por <strong>George Q. Daley</strong>, quien aseguró haber conseguido este logro tras veinte años de esfuerzo, con información del <a href="https://www.clarin.com/sociedad/importante-avance-cientifico-logran-cultivar-celulas-madre-sangre-laboratorio_0_rJkvBXjeW.html" target="_blank">Clarín</a>.</p>
+<p>Para conseguirlo, el equipo de Daley utilizó células madre iPS, similares a las células embrionarias, producidas antes que las células hematopoyéticas. Al identificar siete proteínas clave y aplicarlas como factores de transcripción, consiguieron convertir las células iPS en hematopoyéticas.</p>
+<p>Por su parte, el equipo de investigadores de la Universidad Cornel, Nueva York, dirigido por <strong>Shahin Rafii</strong>, trabajó con las células de la pared interior de los vasos sanguíneos y les aplicó cuatro factores de transcripción. De esta manera también consiguieron producir células hematopoyéticas.</p>
+<p><strong>Los resultados de ambas investigaciones fueron aplicadas en ratones</strong>, experimento que arrojó resultados positivos, tras producirse diversos tipos de células sanguíneas. Con este resultado, el equipo de Rafii pretende iniciar pruebas en primates, hasta llegar a probar éxito con humanos.</p>
+<p>Sin embargo, <strong>hay un par de cosas que evitarían la aplicación de ambas investigaciones en humanos</strong>, puesto que ambas utilizaron virus para aplicar los factores de transcripción, manipulación genética no permitida para su experimentación en personas.</p>
+<p>El otro gran inconveniente es que<strong> la mayoría de los factores de transcripción pueden provocar cánceres</strong>. Los genes que se encargan del desarrollo embrionario también proliferan y diferencian células, así que si no se controlan pueden generar tumores por su capacidad de proliferación.</p>
+<p>Por lo tanto se buscará no tener qué recurrir a los virus como vehículos para la aplicación de factores de transcripción, además de volver transitorios a estos últimos como parte del control de genes.</p>
+<p>Cuando esto se logre, podrían tratarse enfermedades como la betatalasemia, la anemia de Fanconi, el síndrome del niño burbuja, entre otras enfermedades genéticas de la sangre. No obstante, el camino que queda por correr sigue siendo largo.</p>
+<p><strong><span style="font-size: small;">Sígannos y comenten en <a href="https://www.facebook.com/fayerwayer">Facebook</a>.</span></strong></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/fayerwayer?a=g3G_jIMU44U:8EImhDtbExY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/fayerwayer?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=g3G_jIMU44U:8EImhDtbExY:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=g3G_jIMU44U:8EImhDtbExY:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/fayerwayer?a=g3G_jIMU44U:8EImhDtbExY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/fayerwayer?i=g3G_jIMU44U:8EImhDtbExY:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/fayerwayer/~4/g3G_jIMU44U" height="1" width="1" alt=""/>]]></content:encoded>
+            <thumbnail>https://static.betazeta.com/www.fayerwayer.com/up/2017/05/Sangre-C%C3%A9lulas-Portada.jpg</thumbnail>
+            <media:content url="https://static.betazeta.com/www.fayerwayer.com/up/2017/05/Sangre-C%C3%A9lulas-Portada.jpg" type="image/jpeg" medium="image" width="320" height="210">
+                <media:description type="plain" />
+            </media:content>
+            <feedburner:origLink>https://www.fayerwayer.com/2017/05/cientificos-consiguen-cultivar-celulas-madre-de-sangre</feedburner:origLink>
+        </item>
+    </channel>
+</rss>

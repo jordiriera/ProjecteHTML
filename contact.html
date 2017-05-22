@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function loadXMLDoc(filename)
+            {
+                if (window.ActiveXObject)
+                {
+                    xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+                } else
+                {
+                    xhttp = new XMLHttpRequest();
+                }
+                xhttp.open("GET", filename, false);
+                try {
+                    xhttp.responseType = "msxml-document"
+                } catch (err) {
+                } // Helping IE11
+                xhttp.send("");
+                return xhttp.responseXML;
+            }
+
+            function displayResult()
+            {
+                xml = loadXMLDoc("noticies-rss.xml");
+                xsl = loadXMLDoc("noticies-rss.xsl");
+// code for IE
+                if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+                {
+                    ex = xml.transformNode(xsl);
+                    document.getElementById("example").innerHTML = ex;
+                }
+// code for Chrome, Firefox, Opera, etc.
+                else if (document.implementation && document.implementation.createDocument)
+                {
+                    xsltProcessor = new XSLTProcessor();
+                    xsltProcessor.importStylesheet(xsl);
+                    resultDocument = xsltProcessor.transformToFragment(xml, document);
+                    document.getElementById("principal").appendChild(resultDocument);
+                }
+            }
+        </script>
+        <style>
+            * {box-sizing: border-box; padding: 0px; margin: 0px;}
+
+            [class*="col"]{
+                display: inline-block;
+                vertical-align: top;
+
+            }
+
+
+            p.blanc{
+                color: white;
+                padding-left: 8%;
+
+            }
+            p.negreta{
+                padding-left: 8%;
+                font-weight: bold;
+                color: white;
+
+            }
+            ul {
+                list-style-type: none;
+                overflow: hidden;
+                padding: 0px;
+                margin: 0px;
+
+            }
+
+            li {
+                display: inline-block;
+            }
+
+            li a{
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                display: block;
+                padding: 17px;
+            }
+
+
+            @media only screen and (min-width: 851px) {
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+                img{
+                    width: 100%;
+                    padding: 10%;
+                    padding-bottom: 5%;
+                }
+                div {
+                    background-color: orange;
+                }
+            }
+
+            @media only screen and (max-width: 850px) {
+                .col-m-1 {width: 8.33%;}
+                .col-m-2 {width: 16.66%;}
+                .col-m-3 {width: 25%;}
+                .col-m-4 {width: 33.33%;}
+                .col-m-5 {width: 41.66%;}
+                .col-m-6 {width: 50%;}
+                .col-m-7 {width: 58.33%;}
+                .col-m-8 {width: 66.66%;}
+                .col-m-9 {width: 75%;}
+                .col-m-10 {width: 83.33%;}
+                .col-m-11 {width: 91.66%;}
+                .col-m-12 {width: 100%;}
+                img{
+                    width: 100%;
+                    padding: 1%;
+                }
+                div {
+                    background-color: orange;
+                }
+
+            }
+
+            @media only screen and (max-width: 600px) {
+                .col-s-1 {width: 8.33%;}
+                .col-s-2 {width: 16.66%;}
+                .col-s-3 {width: 25%;}
+                .col-s-4 {width: 33.33%;}
+                .col-s-5 {width: 41.66%;}
+                .col-s-6 {width: 50%;}
+                .col-s-7 {width: 58.33%;}
+                .col-s-8 {width: 66.66%;}
+                .col-s-9 {width: 75%;}
+                .col-s-10 {width: 83.33%;}
+                .col-s-11 {width: 91.66%;}
+                .col-s-12 {width: 100%;}
+                img{
+                    width: 100%;
+                    padding: 1%;
+                }
+                div {
+                    background-color: orange;
+                }
+
+            }
+
+            .home{background-color: red;}
+            .home:hover{background-color: orange;}
+            .news{background-color: blue;}
+            .news:hover{background-color: lightblue;}
+            .contact{background-color: green;}
+            .contact:hover{background-color: lightgreen;}
+            .about{background-color: brown;}
+            .about:hover{background-color: lightsalmon;}
+
+
+        </style>
+    </head>
+    <body onload="displayResult()">
+        <div id="principal"></div>
+    </body>
+</html>
