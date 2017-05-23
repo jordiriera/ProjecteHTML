@@ -1,48 +1,50 @@
 <html>
-<head>
-<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>TODO supply a title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script>
-function loadXMLDoc(filename)
-{
-if (window.ActiveXObject)
-  {
-  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-  }
-else 
-  {
-  xhttp = new XMLHttpRequest();
-  }
-xhttp.open("GET", filename, false);
-try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-xhttp.send("");
-return xhttp.responseXML;
-}
+        <script>
+            function loadXMLDoc(filename)
+            {
+                if (window.ActiveXObject)
+                {
+                    xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+                } else
+                {
+                    xhttp = new XMLHttpRequest();
+                }
+                xhttp.open("GET", filename, false);
+                try {
+                    xhttp.responseType = "msxml-document"
+                } catch (err) {
+                } // Helping IE11
+                xhttp.send("");
+                return xhttp.responseXML;
+            }
 
-function displayResult()
-{
-xml = loadXMLDoc("noticies-rss.xml");
-xsl = loadXMLDoc("noticies-rss.xsl");
-// code for IE
-if (window.ActiveXObject || xhttp.responseType == "msxml-document")
-  {
-  ex = xml.transformNode(xsl);
-  document.getElementById("example").innerHTML = ex;
-  }
-// code for Chrome, Firefox, Opera, etc.
-else if (document.implementation && document.implementation.createDocument)
-  {
-  xsltProcessor = new XSLTProcessor();
-  xsltProcessor.importStylesheet(xsl);
-  resultDocument = xsltProcessor.transformToFragment(xml, document);
-  document.getElementById("principal").appendChild(resultDocument);
-  }
-}
-</script>
-<style>
+            function displayResult()
+            {
+                xml = loadXMLDoc("noticies-rss.xml");
+                xsl = loadXMLDoc("noticies-rss.xsl");
+                // code for IE
+                if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+                {
+                    ex = xml.transformNode(xsl);
+                    document.getElementById("example").innerHTML = ex;
+                }
+                // code for Chrome, Firefox, Opera, etc.
+                else if (document.implementation && document.implementation.createDocument)
+                {
+                    xsltProcessor = new XSLTProcessor();
+                    xsltProcessor.importStylesheet(xsl);
+                    resultDocument = xsltProcessor.transformToFragment(xml, document);
+                    document.getElementById("principal").appendChild(resultDocument);
+                }
+            }
+        </script>
+        <style>
             * {box-sizing: border-box; padding: 0px; margin: 0px;}
 
             [class*="col"]{
@@ -53,7 +55,7 @@ else if (document.implementation && document.implementation.createDocument)
 
 
             p.blanc{
-                color: white;
+                color:#151275;
                 padding-left: 8%;
 
             }
@@ -84,6 +86,38 @@ else if (document.implementation && document.implementation.createDocument)
             }
 
 
+            .prova:link {
+                color: green;
+            }
+
+            .prova:visited {
+                color: green;
+            }
+
+            .prova:hover {
+                color: blueviolet;
+            }
+
+
+            .img-rss{
+                margin-left: 20px;
+                opacity: 0.9;
+                float: left;
+            }
+
+            .img-rss:hover {
+                opacity: 1;
+                display : block; 
+                padding-left: -50px; padding-top: -80px;
+                overflow: hidden;
+            }
+
+            .divNoticies{
+                display: inline-block;
+                padding: 20px;
+
+            }
+
             @media only screen and (min-width: 851px) {
                 .col-1 {width: 8.33%;}
                 .col-2 {width: 16.66%;}
@@ -98,8 +132,8 @@ else if (document.implementation && document.implementation.createDocument)
                 .col-11 {width: 91.66%;}
                 .col-12 {width: 100%;}
                 img{
-                    width: 100%;
-                    padding: 10%;
+                    width: 90%;
+                    padding:  3%;
                     padding-bottom: 5%;
                 }
                 div {
@@ -121,7 +155,7 @@ else if (document.implementation && document.implementation.createDocument)
                 .col-m-11 {width: 91.66%;}
                 .col-m-12 {width: 100%;}
                 img{
-                    width: 100%;
+                    width: 90%;
                     padding: 1%;
                 }
                 div {
@@ -164,8 +198,8 @@ else if (document.implementation && document.implementation.createDocument)
 
 
         </style>
-</head>
-<body onload="displayResult()">
-    <div id="principal"></div>
-</body>
+    </head>
+    <body onload="displayResult()">
+        <div id="principal"></div>
+    </body>
 </html>

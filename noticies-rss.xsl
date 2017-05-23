@@ -38,7 +38,7 @@
                             </li><!--
                         -->
                             <li class="about col-3 col-m-12 col-s-12">
-                                <a href="#about">Sobre nosaltres</a>
+                                <a href="#about">Sobre mi</a>
                             </li>
                         </ul>
                     </div>
@@ -47,37 +47,43 @@
         
             <xsl:for-each select="//item">
                     
-                <div class="col-12">
+                <div class="col-3 col-m-6 col-s-12 divNoticies">
                     
-                    <xsl:value-of select="title"></xsl:value-of>
-                    <br/>                    
-                    <xsl:element name="a">
-                        <xsl:attribute name="href">
+                    <p class ="negreta">
+                        <xsl:value-of select="title"></xsl:value-of>
+                    </p>
+                    <br/>      
+
+                    <p class ="negreta prova">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="link"></xsl:value-of>
+                            </xsl:attribute>
                             <xsl:value-of select="title"></xsl:value-of>
-                        </xsl:attribute>
-                        <xsl:value-of select="link"></xsl:value-of>
-                    </xsl:element>
-                    
-                    <xsl:value-of select="description"></xsl:value-of>
+                        </xsl:element>
+                    </p>
+
+                    <p class="blanc">
+                        <xsl:value-of select="description"></xsl:value-of>
+                    </p>
                     
                     <xsl:if test="*[local-name() = 'content']/@url">
-                    
-                        <img class="img-rss">
-                            <xsl:attribute name="src">
-                                <xsl:value-of select="*[local-name() = 'content']/@url"></xsl:value-of>
-                            </xsl:attribute>
-                            <xsl:attribute name="alt">
-                                <xsl:value-of select="*[local-name() = 'content']/@url"></xsl:value-of>
-                            </xsl:attribute>
-                        </img>
+                        <div class="col-6 col-m-6 col-s-12">
+                            <img class="img-rss">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="*[local-name() = 'content']/@url"></xsl:value-of>
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">
+                                    <xsl:value-of select="*[local-name() = 'content']/@url"></xsl:value-of>
+                                </xsl:attribute>
+                            </img>
+                        </div>
                     </xsl:if>
                     
                     
                 </div>
                     
-                <br/>
-                <br/>
-                    
+                                   
                                        
             </xsl:for-each>
         </body>
