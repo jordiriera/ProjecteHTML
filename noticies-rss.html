@@ -63,8 +63,9 @@
                 padding-left: 8%;
                 font-weight: bold;
                 color: white;
-
+                text-decoration: none;
             }
+
             ul {
                 list-style-type: none;
                 overflow: hidden;
@@ -85,24 +86,25 @@
                 padding: 17px;
             }
 
-
-            .prova:link {
-                color: green;
+            .button {
+                background-color:#c0670e;
+                border: none;
+                color: white;
+                padding: 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 2px;
+                display: inline-block;
+                float: right;
             }
-
-            .prova:visited {
-                color: green;
-            }
-
-            .prova:hover {
-                color: blueviolet;
-            }
-
 
             .img-rss{
-                margin-left: 20px;
+                padding-left: 20px;
                 opacity: 0.9;
                 float: left;
+                display: inline-block;
             }
 
             .img-rss:hover {
@@ -112,10 +114,23 @@
                 overflow: hidden;
             }
 
+            div a{
+                a:link {
+                    color: green;
+                }
+
+                a:visited {
+                    color: green;
+                }
+
+                a:hover {
+                    color: blueviolet;
+                }
+            }
+
             .divNoticies{
                 display: inline-block;
-                padding: 20px;
-
+                padding: 10px;
             }
 
             @media only screen and (min-width: 851px) {
@@ -137,8 +152,17 @@
                     padding-bottom: 5%;
                 }
                 div {
-                    background-color: orange;
+                    background-color: grey;
                 }
+
+                .img-rss{
+                    margin-left: 35px;
+                    opacity: 0.9;
+                    float: left;
+                    display: inline-block;
+                }
+
+
             }
 
             @media only screen and (max-width: 850px) {
@@ -159,8 +183,16 @@
                     padding: 1%;
                 }
                 div {
-                    background-color: orange;
+                    background-color: grey;
                 }
+                .img-rss{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    opacity: 0.9;
+                    float: left;
+                    display: inline-block;
+                }
+
 
             }
 
@@ -182,7 +214,21 @@
                     padding: 1%;
                 }
                 div {
-                    background-color: orange;
+                    background-color: grey;
+                }
+                p.negreta2{
+                    padding-left: 3%;
+                    padding-right: 3%;
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                }
+                .img-rss{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    opacity: 0.9;
+                    float: left;
+                    display: inline-block;
                 }
 
             }

@@ -19,7 +19,7 @@
             <header>
                 <div style=" width: 100%">
                     <div class="col-4" style=" display: inline-block;">
-                        <img class ="col-10 col-m-12 col-s-12" style="padding: 0px;" src="img/logo.png"/>
+                        <img class ="col-10 col-m-12 col-s-12" style="padding: 0px; width:150px; height: 100px" src="img/logo.png"/>
                     </div><!--
                 -->
                     <div class ="col-8 col-s-12 col-m-12" style=" display: inline-block">
@@ -47,20 +47,11 @@
         
             <xsl:for-each select="//item">
                     
-                <div class="col-3 col-m-6 col-s-12 divNoticies">
+                <div class="col-4 col-m-6 col-s-12 divNoticies">
                     
-                    <p class ="negreta">
+                                      
+                    <p class="negreta negreta2">
                         <xsl:value-of select="title"></xsl:value-of>
-                    </p>
-                    <br/>      
-
-                    <p class ="negreta prova">
-                        <xsl:element name="a">
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="link"></xsl:value-of>
-                            </xsl:attribute>
-                            <xsl:value-of select="title"></xsl:value-of>
-                        </xsl:element>
                     </p>
 
                     <p class="blanc">
@@ -80,6 +71,15 @@
                         </div>
                     </xsl:if>
                     
+                    
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="link"></xsl:value-of>
+                        </xsl:attribute>
+                        <div class="button"> Saber més</div>
+                    </xsl:element>
+                    
+                   
                     
                 </div>
                     
