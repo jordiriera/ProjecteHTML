@@ -9,45 +9,8 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script>
-            function loadXMLDoc(filename)
-            {
-                if (window.ActiveXObject)
-                {
-                    xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-                } else
-                {
-                    xhttp = new XMLHttpRequest();
-                }
-                xhttp.open("GET", filename, false);
-                try {
-                    xhttp.responseType = "msxml-document"
-                } catch (err) {
-                } // Helping IE11
-                xhttp.send("");
-                return xhttp.responseXML;
-            }
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-            function displayResult()
-            {
-                xml = loadXMLDoc("noticies-rss.xml");
-                xsl = loadXMLDoc("noticies-rss.xsl");
-// code for IE
-                if (window.ActiveXObject || xhttp.responseType == "msxml-document")
-                {
-                    ex = xml.transformNode(xsl);
-                    document.getElementById("example").innerHTML = ex;
-                }
-// code for Chrome, Firefox, Opera, etc.
-                else if (document.implementation && document.implementation.createDocument)
-                {
-                    xsltProcessor = new XSLTProcessor();
-                    xsltProcessor.importStylesheet(xsl);
-                    resultDocument = xsltProcessor.transformToFragment(xml, document);
-                    document.getElementById("principal").appendChild(resultDocument);
-                }
-            }
-        </script>
         <style>
             * {box-sizing: border-box; padding: 0px; margin: 0px;}
 
@@ -88,6 +51,11 @@ and open the template in the editor.
                 display: block;
                 padding: 17px;
             }
+            
+            .footer{
+                display: inline-block;
+                background-color: #d10d0d;
+            }
 
 
             @media only screen and (min-width: 851px) {
@@ -109,7 +77,6 @@ and open the template in the editor.
                     padding-bottom: 5%;
                 }
                 div {
-                    background-color: orange;
                 }
             }
 
@@ -131,7 +98,6 @@ and open the template in the editor.
                     padding: 1%;
                 }
                 div {
-                    background-color: orange;
                 }
 
             }
@@ -154,24 +120,48 @@ and open the template in the editor.
                     padding: 1%;
                 }
                 div {
-                    background-color: orange;
+                    
                 }
 
             }
 
-            .home{background-color: red;}
-            .home:hover{background-color: orange;}
-            .news{background-color: blue;}
-            .news:hover{background-color: lightblue;}
-            .contact{background-color: green;}
-            .contact:hover{background-color: lightgreen;}
-            .about{background-color: brown;}
-            .about:hover{background-color: lightsalmon;}
-
+            .menu{background-color: #d10d0d;}
+            .menu:hover{background-color:#f75959;}           
 
         </style>
     </head>
-    <body onload="displayResult()">
-        <div id="principal"></div>
+    <body>
+        <header>
+            <div style=" width: 100%"><!--
+                --><div class ="col-12 col-s-12 col-m-12" style=" display: inline-block">
+                    <ul class="col-12 col-m-12 col-s-12">
+                        <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">Home</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="noticies-rss.html">Noticies</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="contact.html">Contacte</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="#about">Sobre nosaltres</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2577.0630054357744!2d3.1147821904496436!3d39.81458050907272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1496040200880" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <footer>
+            <div class="col-6 footer"></div><!--
+            --><div class="col-6 footer">
+                <div class ="col-3" style="display: inline-block">
+                    <i class="fa fa-twitter"></i>
+                </div><!--
+                --><div class ="col-3" style="display: inline-block">
+        <i class="fa fa-instagram"></i>
+                </div><!--
+                --><div class ="col-3" style="display: inline-block">
+                    <i class="fa fa-facebook-official"></i>
+                </div><!--
+                --><div class ="col-3" style="display: inline-block">
+                    <i class="fa fa-steam-square"></i>
+                </div>
+            </div>
+        </footer>
+        
     </body>
 </html>

@@ -4,7 +4,8 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Montserrat" rel="stylesheet">   
         <script>
             function loadXMLDoc(filename)
             {
@@ -57,15 +58,10 @@
             p.blanc{
                 color:#151275;
                 padding-left: 8%;
+                font-family: 'Lato';
+                font-size: 18px;
 
             }
-            p.negreta{
-                padding-left: 8%;
-                font-weight: bold;
-                color: white;
-                text-decoration: none;
-            }
-
             ul {
                 list-style-type: none;
                 overflow: hidden;
@@ -96,8 +92,16 @@
                 display: inline-block;
                 font-size: 16px;
                 margin: 2px;
+                border-radius: 30px;
                 display: inline-block;
                 float: right;
+                vertical-align: bottom;  
+                font-family: 'Montserrat';
+                margin-top: 10px;
+            }
+
+            .button:hover{
+                background-color:#d57e4d;
             }
 
             .img-rss{
@@ -105,32 +109,22 @@
                 opacity: 0.9;
                 float: left;
                 display: inline-block;
+                padding: 10%;
+                width: 200%;
             }
+
 
             .img-rss:hover {
                 opacity: 1;
                 display : block; 
-                padding-left: -50px; padding-top: -80px;
                 overflow: hidden;
-            }
-
-            div a{
-                a:link {
-                    color: green;
-                }
-
-                a:visited {
-                    color: green;
-                }
-
-                a:hover {
-                    color: blueviolet;
-                }
+                padding: -10%;
             }
 
             .divNoticies{
                 display: inline-block;
                 padding: 10px;
+                padding-right: 50px;
             }
 
             @media only screen and (min-width: 851px) {
@@ -146,13 +140,14 @@
                 .col-10 {width: 83.33%;}
                 .col-11 {width: 91.66%;}
                 .col-12 {width: 100%;}
+
                 img{
                     width: 90%;
                     padding:  3%;
                     padding-bottom: 5%;
                 }
                 div {
-                    background-color: grey;
+                    background-color:grey;
                 }
 
                 .img-rss{
@@ -160,6 +155,17 @@
                     opacity: 0.9;
                     float: left;
                     display: inline-block;
+                }
+                p.negreta{
+                    padding-left: 8%;
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Droid Sans';
+                    font-size: 20px;
+                }
+                .divtitols{
+                    height: 70px;
                 }
 
 
@@ -178,6 +184,7 @@
                 .col-m-10 {width: 83.33%;}
                 .col-m-11 {width: 91.66%;}
                 .col-m-12 {width: 100%;}
+
                 img{
                     width: 90%;
                     padding: 1%;
@@ -191,6 +198,18 @@
                     opacity: 0.9;
                     float: left;
                     display: inline-block;
+                    width: 100%;
+                }
+                p.negreta{
+                    padding-left: 8%;
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Droid Sans';
+                    font-size: 17px;
+                }
+                .divtitols{
+                    height: 60px;
                 }
 
 
@@ -209,6 +228,7 @@
                 .col-s-10 {width: 83.33%;}
                 .col-s-11 {width: 91.66%;}
                 .col-s-12 {width: 100%;}
+
                 img{
                     width: 100%;
                     padding: 1%;
@@ -230,17 +250,23 @@
                     float: left;
                     display: inline-block;
                 }
+                p.negreta{
+                    padding-left: 8%;
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Droid Sans';
+                    font-size: 15px;
+                }
+                .divtitols{
+                    height: 70px;
+                }
 
             }
 
-            .home{background-color: red;}
-            .home:hover{background-color: orange;}
-            .news{background-color: blue;}
-            .news:hover{background-color: lightblue;}
-            .contact{background-color: green;}
-            .contact:hover{background-color: lightgreen;}
-            .about{background-color: brown;}
-            .about:hover{background-color: lightsalmon;}
+            .menu{background-color: #d10d0d;}
+            .menu:hover{background-color:#f75959;}
+
 
 
         </style>
