@@ -17,7 +17,7 @@
         <body>
                 
             <header>
-            <div style=" width: 100%"><!--
+            <div style=" width: 100%; position: fixed; z-index: 1;"><!--
                 --><div class ="col-12 col-s-12 col-m-12" style=" display: inline-block">
                     <ul class="col-12 col-m-12 col-s-12">
                         <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">Home</a></li><!--

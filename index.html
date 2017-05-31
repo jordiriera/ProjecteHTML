@@ -38,6 +38,10 @@ and open the template in the editor.
                 margin: 0px;
 
             }
+            div.videos{
+                margin-top: 20px;
+                height: 500px; 
+            }
 
             li {
                 display: inline-block;
@@ -71,7 +75,7 @@ and open the template in the editor.
                     padding-bottom: 5%;
                 }
                 div {
-                    background-color: orange;
+
                 }
             }
 
@@ -93,7 +97,6 @@ and open the template in the editor.
                     padding: 1%;
                 }
                 div {
-                    background-color: orange;
                 }
 
             }
@@ -116,21 +119,20 @@ and open the template in the editor.
                     padding: 1%;
                 }
                 div {
-                    background-color: orange;
                 }
 
             }
 
             .menu{background-color: #dd1930;}
             .menu:hover{background-color: #F20834;}
-            
+
 
 
         </style>
     </head>
     <body>
         <header>
-            <div style=" width: 100%"><!--
+            <div style=" width: 100%; position: fixed; z-index: 1;"><!--
                 --><div class ="col-12 col-s-12 col-m-12" style=" display: inline-block">
                     <ul class="col-12 col-m-12 col-s-12">
                         <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">Home</a></li><!--
@@ -141,5 +143,19 @@ and open the template in the editor.
                 </div>
             </div>
         </header>
+        <div style="height: 53px;"></div>
+        <main>
+            <h1 style="margin-left: 15px; margin-top: 20px;">Totes les notícies sobre tecnología</h1>
+            <div class="col-6 col-m-12 col-s-12"></div><!--
+            --><div class="col-6 col-m-12 col-s-12">
+                <div class="videos">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/umG-XBC70M0?ecver=2" frameborder="0" allowfullscreen ></iframe>
+                </div><!--
+                --><div class="videos">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/teCJJlZV2Kc?ecver=2" frameborder="0" allowfullscreen ></iframe>
+                </div><!--
+                --><div class="videos"></div>
+            </div>
+        </main>
     </body>
 </html>
