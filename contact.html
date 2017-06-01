@@ -52,7 +52,7 @@ and open the template in the editor.
                 display: block;
                 padding: 17px;
             }
-            
+
             header {
                 font-family: 'Montserrat';
             }
@@ -63,14 +63,16 @@ and open the template in the editor.
                 color: white;
                 text-align: center;
                 vertical-align: middle;
-                font-family: 'Montserrat';
-            
+                text-decoration: none;
+                height: 30px;
+                vertical-align: bottom;
             }
-            
+
             .lletresfooter{
                 text-decoration: none;
                 color: white;
-                
+                font-family: 'Montserrat';
+
             }
 
 
@@ -159,8 +161,24 @@ and open the template in the editor.
                 </div>
             </div>
         </header>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2577.0630054357744!2d3.1147821904496436!3d39.81458050907272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1496040200880" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <main>
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h2>Envia un e-mail a algu@example.com:</h2>
 
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    Nom:<br>
+                    <input type="text" name="name"><br>
+                    E-mail:<br>
+                    <input type="text" name="mail"><br>
+                    Comentari:<br>
+                    <input type="text" name="comment" size="50"><br><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </main>
         <footer>
             <div class="col-12 col-m-12 col-s-12 footer">
                 <div class="col-1"></div><!--
@@ -172,16 +190,16 @@ and open the template in the editor.
                     --></div><!--
                 --><div class="col-5 footer">
                     <div class ="col-3 footer" style="display: inline-block">
-                        <i class="fa fa-twitter "></i>
+                        <a  class="footer " href="www.twitter.com"><i class="fa fa-twitter ">  @jordiriera</i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <i class="fa fa-instagram"></i>
+                        <a class="footer " href="www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98</i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <i class="fa fa-facebook-official"></i>
+                        <a class="footer " href="www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó</i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <i class="fa fa-steam-square"></i>
+                        <a class="footer " href="http://store.steampowered.com"><i class="fa fa-steam ">  @jordiriera98</i></a>
                     </div><div class="col-1"></div>
                 </div>
             </div>
