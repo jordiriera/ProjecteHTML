@@ -20,10 +20,10 @@
             <div style=" width: 100%; position: fixed; z-index: 1;"><!--
                 --><div class ="col-12 col-s-12 col-m-12" style=" display: inline-block">
                     <ul class="col-12 col-m-12 col-s-12">
-                        <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">Home</a></li><!--
-                        --><li class="menu col-3 col-m-12 col-s-12"><a href="noticies-rss.html">Noticies</a></li><!--
-                        --><li class="menu col-3 col-m-12 col-s-12"><a href="contact.html">Contacte</a></li><!--
-                        --><li class="menu col-3 col-m-12 col-s-12"><a href="#about">Sobre nosaltres</a></li>
+                        <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">INICI</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="noticies-rss.html">NOTICIES</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="contact.html">CONTACTE</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="#about">SOBRE NOSALTRES</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,6 +67,31 @@
                     </xsl:element>
                 </div>
             </xsl:for-each>
+            <footer>
+            <div class="col-12 col-m-12 col-s-12 footer">
+                <div class="col-1"></div><!--
+                --><div class="col-5 footer"><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="index.html">INICI</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="noticies-rss.html">NOTICIES</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="contact.html">CONTACTE</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="index.html">SOBRE NOSALTRES</a></div><!--
+                    --></div><!--
+                --><div class="col-5 footer">
+                    <div class ="col-3 footer" style="display: inline-block">
+                        <i class="fa fa-twitter "></i>
+                    </div><!--
+                    --><div class ="col-3 footer" style="display: inline-block">
+                        <i class="fa fa-instagram"></i>
+                    </div><!--
+                    --><div class ="col-3 footer" style="display: inline-block">
+                        <i class="fa fa-facebook-official"></i>
+                    </div><!--
+                    --><div class ="col-3 footer" style="display: inline-block">
+                        <i class="fa fa-steam-square"></i>
+                    </div><div class="col-1"></div>
+                </div>
+            </div>
+        </footer>
         </body>
     </xsl:template>
 
