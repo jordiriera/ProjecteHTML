@@ -20,10 +20,26 @@ and open the template in the editor.
                 vertical-align: top;
 
             }
+            input[type=checkbox].with-font ~ label:before { font-family: FontAwesome;
+                     display: inline-block;
+                     content: "\f1db";
+                     letter-spacing: 10px;
+                     font-size: 1.2em;
+                     color: #535353;
+                     width: 1.4em;
+            } 
+            input[type=checkbox].with-font:checked ~ label:before { content: "\f00c";
+                     font-size: 1.2em;
+                     color: black;
+                     letter-spacing: 5px; }
+            
+            input[type=checkbox].with-font:focus ~ label:before, input[type=checkbox].with-font:focus ~ label { 
+                color: black; 
+            } 
 
 
             p.blanc{
-                color: white;
+                color: #535353b;
                 padding-left: 8%;
 
             }
@@ -164,18 +180,33 @@ and open the template in the editor.
         <main>
             <div class="col-2"></div>
             <div class="col-8">
-                <h2>Envia un e-mail a algu@example.com:</h2>
+                <h2>Envia'ns la teva opinió</h2>
 
                 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
                     Nom:<br>
                     <input type="text" name="name"><br>
                     E-mail:<br>
                     <input type="text" name="mail"><br>
+                    <br>
+                    <select>
+                        <option value="Mòbils">Mòbils</option>
+                        <option value="Components">Components</option>
+                        <option value="Perifèrics">Perifèrics</option>
+                    </select>
+                    <br>
+                    <br>
                     Comentari:<br>
-                    <input type="text" name="comment" size="50"><br><br>
+                    <textarea name="comentari" rows="15" cols="70"></textarea><br>
+
+                    <input id="subscriure" type="checkbox"><label for="subscriure"> Subscriu-me al bolletí de noticies</label><br>
+                    <br>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Borrar">
                 </form>
+                <br/>
+                <p class="blanc"> Telèfon : 668855245                       <br/>Direcció :</p>
+                <br/>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2577.0630054357744!2d3.1147821904496436!3d39.81458050907272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1496040200880" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="col-2"></div>
         </main>
@@ -190,18 +221,18 @@ and open the template in the editor.
                     --></div><!--
                 --><div class="col-5 footer">
                     <div class ="col-3 footer" style="display: inline-block">
-                        <a  class="footer " href="www.twitter.com"><i class="fa fa-twitter ">  @jordiriera</i></a>
+                        <a  class="footer " href="http://www.twitter.com"><i class="fa fa-twitter ">  @jordiriera</i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98</i></a>
+                        <a class="footer " href="http://www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98</i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó</i></a>
+                        <a class="footer " href="http://www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó</i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
                         <a class="footer " href="http://store.steampowered.com"><i class="fa fa-steam ">  @jordiriera98</i></a>
-                    </div><div class="col-1"></div>
-                </div>
+                    </div>
+                </div><div class="col-1"></div>
             </div>
         </footer>
 

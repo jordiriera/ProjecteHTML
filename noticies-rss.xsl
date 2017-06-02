@@ -17,29 +17,17 @@
         <body>
                 
             <header>
-                <div style=" width: 100%; position: fixed; z-index: 1;"><!--
-                -->
-                    <div class ="col-12 col-s-12 col-m-12" style=" display: inline-block">
-                        <ul class="col-12 col-m-12 col-s-12">
-                            <li class="menu col-3 col-m-12 col-s-12">
-                                <a href="index.html">INICI</a>
-                            </li><!--
-                        -->
-                            <li class="menu col-3 col-m-12 col-s-12">
-                                <a href="noticies-rss.html">NOTICIES</a>
-                            </li><!--
-                        -->
-                            <li class="menu col-3 col-m-12 col-s-12">
-                                <a href="contact.html">CONTACTE</a>
-                            </li><!--
-                        -->
-                            <li class="menu col-3 col-m-12 col-s-12">
-                                <a href="#about">SOBRE NOSALTRES</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div style=" width: 100%; position: fixed; z-index: 1;"><!--
+                --><div class ="col-12 col-s-12 col-m-12" style=" display: inline-block">
+                    <ul class="col-12 col-m-12 col-s-12">
+                        <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">INICI</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="noticies-rss.html">NOTICIES</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="contact.html">CONTACTE</a></li><!--
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="#about">SOBRE NOSALTRES</a></li>
+                    </ul>
                 </div>
-            </header>
+            </div>
+        </header>
             <div class="divarreglarheader"></div>
             <main>
                 <xsl:for-each select="//item">
@@ -82,57 +70,30 @@
                 </xsl:for-each>
             </main>
             <footer>
-                <div class="col-12 col-m-12 col-s-12 footer">
-                    <div class="col-1"></div><!--
-                -->
-                    <div class="col-5 footer"><!--
-                    -->
-                        <div class="col-3 footer">
-                            <a class="lletresfooter" href="index.html">INICI</a>
-                        </div><!--
-                    -->
-                        <div class="col-3 footer">
-                            <a class="lletresfooter" href="noticies-rss.html">NOTICIES</a>
-                        </div><!--
-                    -->
-                        <div class="col-3 footer">
-                            <a class="lletresfooter" href="contact.html">CONTACTE</a>
-                        </div><!--
-                    -->
-                        <div class="col-3 footer">
-                            <a class="lletresfooter" href="index.html">SOBRE NOSALTRES</a>
-                        </div><!--
-                    -->
+            <div class="col-12 col-m-12 col-s-12 footer">
+                <div class="col-1"></div><!--
+                --><div class="col-5 footer"><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="index.html">INICI</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="noticies-rss.html">NOTICIES</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="contact.html">CONTACTE</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="index.html">SOBRE NOSALTRES</a></div><!--
+                    --></div><!--
+                --><div class="col-5 footer">
+                    <div class ="col-3 footer" style="display: inline-block">
+                        <a  class="footer " href="http://www.twitter.com"><i class="fa fa-twitter ">  @jordiriera</i></a>
                     </div><!--
-                -->
-                    <div class="col-5 footer">
-                        <div class ="col-3 footer" style="display: inline-block">
-                            <a  class="footer " href="www.twitter.com">
-                                <i class="fa fa-twitter ">  @jordiriera</i>
-                            </a>
-                        </div><!--
-                    -->
-                        <div class ="col-3 footer" style="display: inline-block">
-                            <a class="footer " href="www.instagram.com">
-                                <i class="fa fa-instagram ">  @jordiriera98</i>
-                            </a>
-                        </div><!--
-                    -->
-                        <div class ="col-3 footer" style="display: inline-block">
-                            <a class="footer " href="www.facebook.com">
-                                <i class="fa fa-facebook ">  Jordi Riera Rayó</i>
-                            </a>
-                        </div><!--
-                    -->
-                        <div class ="col-3 footer" style="display: inline-block">
-                            <a class="footer " href="http://store.steampowered.com">
-                                <i class="fa fa-steam ">  @jordiriera98</i>
-                            </a>
-                        </div>
-                        <div class="col-1"></div>
+                    --><div class ="col-3 footer" style="display: inline-block">
+                        <a class="footer " href="http://www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98</i></a>
+                    </div><!--
+                    --><div class ="col-3 footer" style="display: inline-block">
+                        <a class="footer " href="http://www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó</i></a>
+                    </div><!--
+                    --><div class ="col-3 footer" style="display: inline-block">
+                        <a class="footer " href="http://store.steampowered.com"><i class="fa fa-steam ">  @jordiriera98</i></a>
                     </div>
-                </div>
-            </footer>
+                </div><div class="col-1"></div>
+            </div>
+        </footer>
         </body>
     </xsl:template>
 
