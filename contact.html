@@ -20,26 +20,9 @@ and open the template in the editor.
                 vertical-align: top;
 
             }
-            input[type=checkbox].with-font ~ label:before { font-family: FontAwesome;
-                     display: inline-block;
-                     content: "\f1db";
-                     letter-spacing: 10px;
-                     font-size: 1.2em;
-                     color: #535353;
-                     width: 1.4em;
-            } 
-            input[type=checkbox].with-font:checked ~ label:before { content: "\f00c";
-                     font-size: 1.2em;
-                     color: black;
-                     letter-spacing: 5px; }
-            
-            input[type=checkbox].with-font:focus ~ label:before, input[type=checkbox].with-font:focus ~ label { 
-                color: black; 
-            } 
-
 
             p.blanc{
-                color: #535353b;
+                color: #35353b;
                 padding-left: 8%;
 
             }
@@ -115,6 +98,7 @@ and open the template in the editor.
             }
 
             @media only screen and (max-width: 850px) {
+                .col-m-0 { width: 0%;}
                 .col-m-1 {width: 8.33%;}
                 .col-m-2 {width: 16.66%;}
                 .col-m-3 {width: 25%;}
@@ -137,6 +121,7 @@ and open the template in the editor.
             }
 
             @media only screen and (max-width: 600px) {
+                .col-s-0 { width: 0%;}
                 .col-s-1 {width: 8.33%;}
                 .col-s-2 {width: 16.66%;}
                 .col-s-3 {width: 25%;}
@@ -156,6 +141,9 @@ and open the template in the editor.
                 div {
 
                 }
+                .amagafooter{
+                    display: none;
+                }
 
             }
 
@@ -172,17 +160,17 @@ and open the template in the editor.
                         <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">INICI</a></li><!--
                         --><li class="menu col-3 col-m-12 col-s-12"><a href="noticies-rss.html">NOTICIES</a></li><!--
                         --><li class="menu col-3 col-m-12 col-s-12"><a href="contact.html">CONTACTE</a></li><!--
-                        --><li class="menu col-3 col-m-12 col-s-12"><a href="#about">SOBRE NOSALTRES</a></li>
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="sobrenosaltres.html">SOBRE NOSALTRES</a></li>
                     </ul>
                 </div>
             </div>
         </header>
         <main>
-            <div class="col-2"></div>
-            <div class="col-8">
+            <div class="col-2 col-m-1 col-s-1"></div>
+            <div class="col-8 col-m-10 col-s-10">
                 <h2>Envia'ns la teva opinió</h2>
 
-                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <form action="mailto:exemple@example.com" method="post" enctype="text/plain">
                     Nom:<br>
                     <input type="text" name="name"><br>
                     E-mail:<br>
@@ -195,6 +183,21 @@ and open the template in the editor.
                     </select>
                     <br>
                     <br>
+
+                    <input type="radio" name="sexe" value="male" checked> Home 
+                    <input type="radio" name="sexe" value="female"> Dona 
+                    <input type="radio" name="sexe" value="other" onfocus> Altres  
+
+                    <br>
+                    <br>
+
+                    Quants articles has llegit?<br>
+                    <input type="radio" name="articles" value="1" checked> 1 - 5 <br>
+                    <input type="radio" name="articles" value="6"> 6 - 10 <br>
+                    <input type="radio" name="articles" value="+10" onfocus> + 10 
+
+                    <br>
+                    <br>
                     Comentari:<br>
                     <textarea name="comentari" rows="15" cols="70"></textarea><br>
 
@@ -204,35 +207,42 @@ and open the template in the editor.
                     <input type="reset" value="Borrar">
                 </form>
                 <br/>
-                <p class="blanc"> Telèfon : 668855245                       <br/>Direcció :</p>
                 <br/>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2577.0630054357744!2d3.1147821904496436!3d39.81458050907272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1496040200880" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
             </div>
-            <div class="col-2"></div>
+            <div class="col-2 col-m-1 col-s-1"></div>
         </main>
         <footer>
             <div class="col-12 col-m-12 col-s-12 footer">
-                <div class="col-1"></div><!--
-                --><div class="col-5 footer"><!--
+                <div class="col-1 col-s-0 col-m-0"></div><!--
+                --><div class="col-5 col-s-0 col-m-0 footer amagafooter"><!--
                     --><div class="col-3 footer"><a class="lletresfooter" href="index.html">INICI</a></div><!--
                     --><div class="col-3 footer"><a class="lletresfooter" href="noticies-rss.html">NOTICIES</a></div><!--
                     --><div class="col-3 footer"><a class="lletresfooter" href="contact.html">CONTACTE</a></div><!--
-                    --><div class="col-3 footer"><a class="lletresfooter" href="index.html">SOBRE NOSALTRES</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="sobrenosaltres.html">SOBRE NOSALTRES</a></div><!--
                     --></div><!--
-                --><div class="col-5 footer">
+                --><div class="col-5 col-m-12 col-s-12 footer">
                     <div class ="col-3 footer" style="display: inline-block">
-                        <a  class="footer " href="http://www.twitter.com"><i class="fa fa-twitter ">  @jordiriera</i></a>
+                        <a  class="footer " href="http://www.twitter.com"><i class="fa fa-twitter ">  @jordiriera  </i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="http://www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98</i></a>
+                        <a class="footer " href="http://www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98  </i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="http://www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó</i></a>
+                        <a class="footer " href="http://www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó  </i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="http://store.steampowered.com"><i class="fa fa-steam ">  @jordiriera98</i></a>
+                        <a class="footer " href="http://store.steampowered.com"><i class="fa fa-steam ">  @jordiriera98  </i></a>
                     </div>
-                </div><div class="col-1"></div>
+                </div><div class="col-1 col-s-0 col-m-0"></div>
             </div>
         </footer>
 

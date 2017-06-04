@@ -17,13 +17,13 @@
         <body>
                 
             <header>
-            <div style=" width: 100%; position: fixed; z-index: 1;"><!--
+            <div style=" width: 100%"><!--
                 --><div class ="col-12 col-s-12 col-m-12" style=" display: inline-block">
                     <ul class="col-12 col-m-12 col-s-12">
                         <li class="menu col-3 col-m-12 col-s-12"><a href="index.html">INICI</a></li><!--
                         --><li class="menu col-3 col-m-12 col-s-12"><a href="noticies-rss.html">NOTICIES</a></li><!--
                         --><li class="menu col-3 col-m-12 col-s-12"><a href="contact.html">CONTACTE</a></li><!--
-                        --><li class="menu col-3 col-m-12 col-s-12"><a href="#about">SOBRE NOSALTRES</a></li>
+                        --><li class="menu col-3 col-m-12 col-s-12"><a href="sobrenosaltres.html">SOBRE NOSALTRES</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,27 +71,27 @@
             </main>
             <footer>
             <div class="col-12 col-m-12 col-s-12 footer">
-                <div class="col-1"></div><!--
-                --><div class="col-5 footer"><!--
+                <div class="col-1 col-s-0 col-m-0"></div><!--
+                --><div class="col-5 col-s-0 col-m-0 footer amagafooter"><!--
                     --><div class="col-3 footer"><a class="lletresfooter" href="index.html">INICI</a></div><!--
                     --><div class="col-3 footer"><a class="lletresfooter" href="noticies-rss.html">NOTICIES</a></div><!--
                     --><div class="col-3 footer"><a class="lletresfooter" href="contact.html">CONTACTE</a></div><!--
-                    --><div class="col-3 footer"><a class="lletresfooter" href="index.html">SOBRE NOSALTRES</a></div><!--
+                    --><div class="col-3 footer"><a class="lletresfooter" href="sobrenosaltres.html">SOBRE NOSALTRES</a></div><!--
                     --></div><!--
-                --><div class="col-5 footer">
+                --><div class="col-5 col-m-12 col-s-12 footer">
                     <div class ="col-3 footer" style="display: inline-block">
-                        <a  class="footer " href="http://www.twitter.com"><i class="fa fa-twitter ">  @jordiriera</i></a>
+                        <a  class="footer " href="http://www.twitter.com"><i class="fa fa-twitter ">  @jordiriera  </i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="http://www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98</i></a>
+                        <a class="footer " href="http://www.instagram.com"><i class="fa fa-instagram ">  @jordiriera98  </i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="http://www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó</i></a>
+                        <a class="footer " href="http://www.facebook.com"><i class="fa fa-facebook ">  Jordi Riera Rayó  </i></a>
                     </div><!--
                     --><div class ="col-3 footer" style="display: inline-block">
-                        <a class="footer " href="http://store.steampowered.com"><i class="fa fa-steam ">  @jordiriera98</i></a>
+                        <a class="footer " href="http://store.steampowered.com"><i class="fa fa-steam ">  @jordiriera98  </i></a>
                     </div>
-                </div><div class="col-1"></div>
+                </div><div class="col-1 col-s-0 col-m-0"></div>
             </div>
         </footer>
         </body>
